@@ -1,0 +1,2526 @@
+[
+ {
+  "id": "SOL-ST-0097",
+  "taskId": "ST-0097",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, A₁C₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, A₁C₁.",
+     "en": "Determine the relative position. B₁D₁, A₁C₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (1; 1; 0), u × v = (0; 0; -2), (AC, u, v) = 0; прямые лежат в одной плоскости и пересекаются. 2.",
+     "kk": "u = (-1; 1; 0), v = (1; 1; 0), u × v = (0; 0; -2), (AC, u, v) = 0; түзулер бір жазықтықта жатады және қиылысады. 2.",
+     "en": "u = (-1; 1; 0), v = (1; 1; 0), u × v = (0; 0; -2), (AC, u, v) = 0; the lines are coplanar and intersect. 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "A₁",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0098",
+  "taskId": "ST-0098",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. CD, AB.",
+     "kk": "Өзара орналасуын анықтаңыз. CD, AB.",
+     "en": "Determine the relative position. CD, AB."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 0; 0), v = (1; 0; 0), u × v = (0; 0; 0); прямые параллельны. 1.",
+     "kk": "u = (-1; 0; 0), v = (1; 0; 0), u × v = (0; 0; 0); түзулер параллель. 1.",
+     "en": "u = (-1; 0; 0), v = (1; 0; 0), u × v = (0; 0; 0); the lines are parallel. 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "C",
+    "D",
+    "A",
+    "B"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0099",
+  "taskId": "ST-0099",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, AB.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, AB.",
+     "en": "Determine the relative position. B₁D₁, AB."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (1; 0; 0), u × v = (0; 0; -1), (AC, u, v) = 1; прямые не лежат в одной плоскости — скрещиваются. 3.",
+     "kk": "u = (-1; 1; 0), v = (1; 0; 0), u × v = (0; 0; -1), (AC, u, v) = 1; түзулер бір жазықтықта жатпайды — айқас. 3.",
+     "en": "u = (-1; 1; 0), v = (1; 0; 0), u × v = (0; 0; -1), (AC, u, v) = 1; the lines are not coplanar — skew. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "A",
+    "B"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0100",
+  "taskId": "ST-0100",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, CB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, CB₁.",
+     "en": "Determine the relative position. B₁D₁, CB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (0; -1; 1), u × v = (1; 1; 1), (AC, u, v) = 0; прямые лежат в одной плоскости и пересекаются. 2.",
+     "kk": "u = (-1; 1; 0), v = (0; -1; 1), u × v = (1; 1; 1), (AC, u, v) = 0; түзулер бір жазықтықта жатады және қиылысады. 2.",
+     "en": "u = (-1; 1; 0), v = (0; -1; 1), u × v = (1; 1; 1), (AC, u, v) = 0; the lines are coplanar and intersect. 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "C",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0101",
+  "taskId": "ST-0101",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. BC₁, AD₁.",
+     "kk": "Өзара орналасуын анықтаңыз. BC₁, AD₁.",
+     "en": "Determine the relative position. BC₁, AD₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (0; 1; 1), v = (0; 1; 1), u × v = (0; 0; 0); прямые параллельны. 1.",
+     "kk": "u = (0; 1; 1), v = (0; 1; 1), u × v = (0; 0; 0); түзулер параллель. 1.",
+     "en": "u = (0; 1; 1), v = (0; 1; 1), u × v = (0; 0; 0); the lines are parallel. 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B",
+    "C₁",
+    "A",
+    "D₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0102",
+  "taskId": "ST-0102",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. CD, A₁B₁.",
+     "kk": "Өзара орналасуын анықтаңыз. CD, A₁B₁.",
+     "en": "Determine the relative position. CD, A₁B₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 0; 0), v = (1; 0; 0), u × v = (0; 0; 0); прямые параллельны. 1.",
+     "kk": "u = (-1; 0; 0), v = (1; 0; 0), u × v = (0; 0; 0); түзулер параллель. 1.",
+     "en": "u = (-1; 0; 0), v = (1; 0; 0), u × v = (0; 0; 0); the lines are parallel. 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "C",
+    "D",
+    "A₁",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0103",
+  "taskId": "ST-0103",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, BC₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, BC₁.",
+     "en": "Determine the relative position. B₁D₁, BC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (0; 1; 1), u × v = (1; 1; -1), (AC, u, v) = 1; прямые не лежат в одной плоскости — скрещиваются. 3.",
+     "kk": "u = (-1; 1; 0), v = (0; 1; 1), u × v = (1; 1; -1), (AC, u, v) = 1; түзулер бір жазықтықта жатпайды — айқас. 3.",
+     "en": "u = (-1; 1; 0), v = (0; 1; 1), u × v = (1; 1; -1), (AC, u, v) = 1; the lines are not coplanar — skew. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "B",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0104",
+  "taskId": "ST-0104",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, BB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, BB₁.",
+     "en": "Determine the relative position. B₁D₁, BB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (0; 0; 1), u × v = (1; 1; 0), (AC, u, v) = 0; прямые лежат в одной плоскости и пересекаются. 2.",
+     "kk": "u = (-1; 1; 0), v = (0; 0; 1), u × v = (1; 1; 0), (AC, u, v) = 0; түзулер бір жазықтықта жатады және қиылысады. 2.",
+     "en": "u = (-1; 1; 0), v = (0; 0; 1), u × v = (1; 1; 0), (AC, u, v) = 0; the lines are coplanar and intersect. 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "B",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0105",
+  "taskId": "ST-0105",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, AB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, AB₁.",
+     "en": "Determine the relative position. B₁D₁, AB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (1; 0; 1), u × v = (1; 1; -1), (AC, u, v) = 0; прямые лежат в одной плоскости и пересекаются. 2.",
+     "kk": "u = (-1; 1; 0), v = (1; 0; 1), u × v = (1; 1; -1), (AC, u, v) = 0; түзулер бір жазықтықта жатады және қиылысады. 2.",
+     "en": "u = (-1; 1; 0), v = (1; 0; 1), u × v = (1; 1; -1), (AC, u, v) = 0; the lines are coplanar and intersect. 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "A",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0106",
+  "taskId": "ST-0106",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, BD.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, BD.",
+     "en": "Determine the relative position. B₁D₁, BD."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (-1; 1; 0), u × v = (0; 0; 0); прямые параллельны. 1.",
+     "kk": "u = (-1; 1; 0), v = (-1; 1; 0), u × v = (0; 0; 0); түзулер параллель. 1.",
+     "en": "u = (-1; 1; 0), v = (-1; 1; 0), u × v = (0; 0; 0); the lines are parallel. 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "B",
+    "D"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0107",
+  "taskId": "ST-0107",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, CD.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, CD.",
+     "en": "Determine the relative position. B₁D₁, CD."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (-1; 0; 0), u × v = (0; 0; 1), (AC, u, v) = -1; прямые не лежат в одной плоскости — скрещиваются. 3.",
+     "kk": "u = (-1; 1; 0), v = (-1; 0; 0), u × v = (0; 0; 1), (AC, u, v) = -1; түзулер бір жазықтықта жатпайды — айқас. 3.",
+     "en": "u = (-1; 1; 0), v = (-1; 0; 0), u × v = (0; 0; 1), (AC, u, v) = -1; the lines are not coplanar — skew. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "C",
+    "D"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0108",
+  "taskId": "ST-0108",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. BA₁, CD₁.",
+     "kk": "Өзара орналасуын анықтаңыз. BA₁, CD₁.",
+     "en": "Determine the relative position. BA₁, CD₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 0; 1), v = (-1; 0; 1), u × v = (0; 0; 0); прямые параллельны. 1.",
+     "kk": "u = (-1; 0; 1), v = (-1; 0; 1), u × v = (0; 0; 0); түзулер параллель. 1.",
+     "en": "u = (-1; 0; 1), v = (-1; 0; 1), u × v = (0; 0; 0); the lines are parallel. 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B",
+    "A₁",
+    "C",
+    "D₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0109",
+  "taskId": "ST-0109",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, DD₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, DD₁.",
+     "en": "Determine the relative position. B₁D₁, DD₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (0; 0; 1), u × v = (1; 1; 0), (AC, u, v) = 0; прямые лежат в одной плоскости и пересекаются. 2.",
+     "kk": "u = (-1; 1; 0), v = (0; 0; 1), u × v = (1; 1; 0), (AC, u, v) = 0; түзулер бір жазықтықта жатады және қиылысады. 2.",
+     "en": "u = (-1; 1; 0), v = (0; 0; 1), u × v = (1; 1; 0), (AC, u, v) = 0; the lines are coplanar and intersect. 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "D",
+    "D₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0110",
+  "taskId": "ST-0110",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, AD.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, AD.",
+     "en": "Determine the relative position. B₁D₁, AD."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (0; 1; 0), u × v = (0; 0; -1), (AC, u, v) = 1; прямые не лежат в одной плоскости — скрещиваются. 3.",
+     "kk": "u = (-1; 1; 0), v = (0; 1; 0), u × v = (0; 0; -1), (AC, u, v) = 1; түзулер бір жазықтықта жатпайды — айқас. 3.",
+     "en": "u = (-1; 1; 0), v = (0; 1; 0), u × v = (0; 0; -1), (AC, u, v) = 1; the lines are not coplanar — skew. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "A",
+    "D"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0111",
+  "taskId": "ST-0111",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, BA₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, BA₁.",
+     "en": "Determine the relative position. B₁D₁, BA₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (-1; 0; 1), u × v = (1; 1; 1), (AC, u, v) = -1; прямые не лежат в одной плоскости — скрещиваются. 3.",
+     "kk": "u = (-1; 1; 0), v = (-1; 0; 1), u × v = (1; 1; 1), (AC, u, v) = -1; түзулер бір жазықтықта жатпайды — айқас. 3.",
+     "en": "u = (-1; 1; 0), v = (-1; 0; 1), u × v = (1; 1; 1), (AC, u, v) = -1; the lines are not coplanar — skew. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "B",
+    "A₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0112",
+  "taskId": "ST-0112",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, DB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, DB₁.",
+     "en": "Determine the relative position. B₁D₁, DB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (1; -1; 1), u × v = (1; 1; 0), (AC, u, v) = 0; прямые лежат в одной плоскости и пересекаются. 2.",
+     "kk": "u = (-1; 1; 0), v = (1; -1; 1), u × v = (1; 1; 0), (AC, u, v) = 0; түзулер бір жазықтықта жатады және қиылысады. 2.",
+     "en": "u = (-1; 1; 0), v = (1; -1; 1), u × v = (1; 1; 0), (AC, u, v) = 0; the lines are coplanar and intersect. 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "D",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0113",
+  "taskId": "ST-0113",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, BC.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, BC.",
+     "en": "Determine the relative position. B₁D₁, BC."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (0; 1; 0), u × v = (0; 0; -1), (AC, u, v) = 1; прямые не лежат в одной плоскости — скрещиваются. 3.",
+     "kk": "u = (-1; 1; 0), v = (0; 1; 0), u × v = (0; 0; -1), (AC, u, v) = 1; түзулер бір жазықтықта жатпайды — айқас. 3.",
+     "en": "u = (-1; 1; 0), v = (0; 1; 0), u × v = (0; 0; -1), (AC, u, v) = 1; the lines are not coplanar — skew. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "B",
+    "C"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0114",
+  "taskId": "ST-0114",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, DC₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, DC₁.",
+     "en": "Determine the relative position. B₁D₁, DC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (1; 0; 1), u × v = (1; 1; -1), (AC, u, v) = 1; прямые не лежат в одной плоскости — скрещиваются. 3.",
+     "kk": "u = (-1; 1; 0), v = (1; 0; 1), u × v = (1; 1; -1), (AC, u, v) = 1; түзулер бір жазықтықта жатпайды — айқас. 3.",
+     "en": "u = (-1; 1; 0), v = (1; 0; 1), u × v = (1; 1; -1), (AC, u, v) = 1; the lines are not coplanar — skew. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "D",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0115",
+  "taskId": "ST-0115",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. CD, C₁D₁.",
+     "kk": "Өзара орналасуын анықтаңыз. CD, C₁D₁.",
+     "en": "Determine the relative position. CD, C₁D₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 0; 0), v = (-1; 0; 0), u × v = (0; 0; 0); прямые параллельны. 1.",
+     "kk": "u = (-1; 0; 0), v = (-1; 0; 0), u × v = (0; 0; 0); түзулер параллель. 1.",
+     "en": "u = (-1; 0; 0), v = (-1; 0; 0), u × v = (0; 0; 0); the lines are parallel. 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "C",
+    "D",
+    "C₁",
+    "D₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0116",
+  "taskId": "ST-0116",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. BB₁, DD₁.",
+     "kk": "Өзара орналасуын анықтаңыз. BB₁, DD₁.",
+     "en": "Determine the relative position. BB₁, DD₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (0; 0; 1), v = (0; 0; 1), u × v = (0; 0; 0); прямые параллельны. 1.",
+     "kk": "u = (0; 0; 1), v = (0; 0; 1), u × v = (0; 0; 0); түзулер параллель. 1.",
+     "en": "u = (0; 0; 1), v = (0; 0; 1), u × v = (0; 0; 0); the lines are parallel. 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B",
+    "B₁",
+    "D",
+    "D₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0117",
+  "taskId": "ST-0117",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, BD₁.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, BD₁.",
+     "en": "Determine the relative position. B₁D₁, BD₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (-1; 1; 1), u × v = (1; 1; 0), (AC, u, v) = 0; прямые лежат в одной плоскости и пересекаются. 2.",
+     "kk": "u = (-1; 1; 0), v = (-1; 1; 1), u × v = (1; 1; 0), (AC, u, v) = 0; түзулер бір жазықтықта жатады және қиылысады. 2.",
+     "en": "u = (-1; 1; 0), v = (-1; 1; 1), u × v = (1; 1; 0), (AC, u, v) = 0; the lines are coplanar and intersect. 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "B",
+    "D₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0118",
+  "taskId": "ST-0118",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. B₁D₁, AC.",
+     "kk": "Өзара орналасуын анықтаңыз. B₁D₁, AC.",
+     "en": "Determine the relative position. B₁D₁, AC."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте обе прямые в 3D-лаборатории и проверьте, лежат ли они в одной плоскости.",
+     "kk": "Екі түзуді де 3D-зертханада салып, олардың бір жазықтықта жатуын тексеріңіз.",
+     "en": "Construct both lines in the 3D lab and check whether they are coplanar."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-020",
+     "RULE-001"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 0), v = (1; 1; 0), u × v = (0; 0; -2), (AC, u, v) = 2; прямые не лежат в одной плоскости — скрещиваются. 3.",
+     "kk": "u = (-1; 1; 0), v = (1; 1; 0), u × v = (0; 0; -2), (AC, u, v) = 2; түзулер бір жазықтықта жатпайды — айқас. 3.",
+     "en": "u = (-1; 1; 0), v = (1; 1; 0), u × v = (0; 0; -2), (AC, u, v) = 2; the lines are not coplanar — skew. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: у скрещивающихся прямых смешанное произведение отлично от нуля, у параллельных нулевое векторное произведение.",
+     "kk": "Тексеру: айқас түзулерде аралас көбейтінді нөлге тең емес, параллельдерде векторлық көбейтінді нөлге тең.",
+     "en": "Check: for skew lines the scalar triple product is nonzero; for parallel lines the cross product is zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLines",
+   "args": [
+    "B₁",
+    "D₁",
+    "A",
+    "C"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0119",
+  "taskId": "ST-0119",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. CD, ADC₁.",
+     "kk": "Өзара орналасуын анықтаңыз. CD, ADC₁.",
+     "en": "Determine the relative position. CD, ADC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (-1; 0; 0), n = (1; 0; -1), u·n = -1; u·n ≠ 0, u не параллелен n — пересекает под углом, не равным 90°. 4.",
+     "kk": "u = (-1; 0; 0), n = (1; 0; -1), u·n = -1; u·n ≠ 0, u n-ге параллель емес — 90°-қа тең емес бұрышпен қиылысады. 4.",
+     "en": "u = (-1; 0; 0), n = (1; 0; -1), u·n = -1; u·n ≠ 0 and u is not parallel to n — intersects at an angle other than 90°. 4."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4",
+   "value": 4,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "C",
+    "D",
+    "A",
+    "D",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0120",
+  "taskId": "ST-0120",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. A₁B₁, BCB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. A₁B₁, BCB₁.",
+     "en": "Determine the relative position. A₁B₁, BCB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (1; 0; 0), n = (1; 0; 0), u·n = 1; u ∥ n — прямая перпендикулярна плоскости. 3.",
+     "kk": "u = (1; 0; 0), n = (1; 0; 0), u·n = 1; u ∥ n — түзу жазықтыққа перпендикуляр. 3.",
+     "en": "u = (1; 0; 0), n = (1; 0; 0), u·n = 1; u ∥ n — the line is perpendicular to the plane. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "A₁",
+    "B₁",
+    "B",
+    "C",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0121",
+  "taskId": "ST-0121",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. DB₁, BB₁D₁.",
+     "kk": "Өзара орналасуын анықтаңыз. DB₁, BB₁D₁.",
+     "en": "Determine the relative position. DB₁, BB₁D₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (1; -1; 1), n = (-1; -1; 0), u·n = 0, n·(P−A) = 0; прямая лежит в плоскости (точка прямой в плоскости). 2.",
+     "kk": "u = (1; -1; 1), n = (-1; -1; 0), u·n = 0, n·(P−A) = 0; түзу жазықтықта жатыр (түзудің нүктесі жазықтықта). 2.",
+     "en": "u = (1; -1; 1), n = (-1; -1; 0), u·n = 0, n·(P−A) = 0; the line lies in the plane (its point is in the plane). 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "D",
+    "B₁",
+    "B",
+    "B₁",
+    "D₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0122",
+  "taskId": "ST-0122",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. DD₁, BCB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. DD₁, BCB₁.",
+     "en": "Determine the relative position. DD₁, BCB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (0; 0; 1), n = (1; 0; 0), u·n = 0, n·(P−A) = -1; прямая параллельна плоскости (точка прямой не лежит в плоскости). 1.",
+     "kk": "u = (0; 0; 1), n = (1; 0; 0), u·n = 0, n·(P−A) = -1; түзу жазықтыққа параллель (түзудің нүктесі жазықтықта жатпайды). 1.",
+     "en": "u = (0; 0; 1), n = (1; 0; 0), u·n = 0, n·(P−A) = -1; the line is parallel to the plane (its point is not in the plane). 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "D",
+    "D₁",
+    "B",
+    "C",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0123",
+  "taskId": "ST-0123",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. DA₁, ACB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. DA₁, ACB₁.",
+     "en": "Determine the relative position. DA₁, ACB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (0; -1; 1), n = (1; -1; -1), u·n = 0, n·(P−A) = -1; прямая параллельна плоскости (точка прямой не лежит в плоскости). 1.",
+     "kk": "u = (0; -1; 1), n = (1; -1; -1), u·n = 0, n·(P−A) = -1; түзу жазықтыққа параллель (түзудің нүктесі жазықтықта жатпайды). 1.",
+     "en": "u = (0; -1; 1), n = (1; -1; -1), u·n = 0, n·(P−A) = -1; the line is parallel to the plane (its point is not in the plane). 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "D",
+    "A₁",
+    "A",
+    "C",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0124",
+  "taskId": "ST-0124",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. AC, ADC₁.",
+     "kk": "Өзара орналасуын анықтаңыз. AC, ADC₁.",
+     "en": "Determine the relative position. AC, ADC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (1; 1; 0), n = (1; 0; -1), u·n = 1; u·n ≠ 0, u не параллелен n — пересекает под углом, не равным 90°. 4.",
+     "kk": "u = (1; 1; 0), n = (1; 0; -1), u·n = 1; u·n ≠ 0, u n-ге параллель емес — 90°-қа тең емес бұрышпен қиылысады. 4.",
+     "en": "u = (1; 1; 0), n = (1; 0; -1), u·n = 1; u·n ≠ 0 and u is not parallel to n — intersects at an angle other than 90°. 4."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4",
+   "value": 4,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "A",
+    "C",
+    "A",
+    "D",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0125",
+  "taskId": "ST-0125",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. BD₁, ACB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. BD₁, ACB₁.",
+     "en": "Determine the relative position. BD₁, ACB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (-1; 1; 1), n = (1; -1; -1), u·n = -3; u ∥ n — прямая перпендикулярна плоскости. 3.",
+     "kk": "u = (-1; 1; 1), n = (1; -1; -1), u·n = -3; u ∥ n — түзу жазықтыққа перпендикуляр. 3.",
+     "en": "u = (-1; 1; 1), n = (1; -1; -1), u·n = -3; u ∥ n — the line is perpendicular to the plane. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "B",
+    "D₁",
+    "A",
+    "C",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0126",
+  "taskId": "ST-0126",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. AD₁, BCB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. AD₁, BCB₁.",
+     "en": "Determine the relative position. AD₁, BCB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (0; 1; 1), n = (1; 0; 0), u·n = 0, n·(P−A) = -1; прямая параллельна плоскости (точка прямой не лежит в плоскости). 1.",
+     "kk": "u = (0; 1; 1), n = (1; 0; 0), u·n = 0, n·(P−A) = -1; түзу жазықтыққа параллель (түзудің нүктесі жазықтықта жатпайды). 1.",
+     "en": "u = (0; 1; 1), n = (1; 0; 0), u·n = 0, n·(P−A) = -1; the line is parallel to the plane (its point is not in the plane). 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "A",
+    "D₁",
+    "B",
+    "C",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0127",
+  "taskId": "ST-0127",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. A₁C₁, ACB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. A₁C₁, ACB₁.",
+     "en": "Determine the relative position. A₁C₁, ACB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (1; 1; 0), n = (1; -1; -1), u·n = 0, n·(P−A) = -1; прямая параллельна плоскости (точка прямой не лежит в плоскости). 1.",
+     "kk": "u = (1; 1; 0), n = (1; -1; -1), u·n = 0, n·(P−A) = -1; түзу жазықтыққа параллель (түзудің нүктесі жазықтықта жатпайды). 1.",
+     "en": "u = (1; 1; 0), n = (1; -1; -1), u·n = 0, n·(P−A) = -1; the line is parallel to the plane (its point is not in the plane). 1."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "1",
+   "value": 1,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "A₁",
+    "C₁",
+    "A",
+    "C",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0128",
+  "taskId": "ST-0128",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. DA₁, ADC₁.",
+     "kk": "Өзара орналасуын анықтаңыз. DA₁, ADC₁.",
+     "en": "Determine the relative position. DA₁, ADC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (0; -1; 1), n = (1; 0; -1), u·n = -1; u·n ≠ 0, u не параллелен n — пересекает под углом, не равным 90°. 4.",
+     "kk": "u = (0; -1; 1), n = (1; 0; -1), u·n = -1; u·n ≠ 0, u n-ге параллель емес — 90°-қа тең емес бұрышпен қиылысады. 4.",
+     "en": "u = (0; -1; 1), n = (1; 0; -1), u·n = -1; u·n ≠ 0 and u is not parallel to n — intersects at an angle other than 90°. 4."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4",
+   "value": 4,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "D",
+    "A₁",
+    "A",
+    "D",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0129",
+  "taskId": "ST-0129",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. CC₁, BCB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. CC₁, BCB₁.",
+     "en": "Determine the relative position. CC₁, BCB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (0; 0; 1), n = (1; 0; 0), u·n = 0, n·(P−A) = 0; прямая лежит в плоскости (точка прямой в плоскости). 2.",
+     "kk": "u = (0; 0; 1), n = (1; 0; 0), u·n = 0, n·(P−A) = 0; түзу жазықтықта жатыр (түзудің нүктесі жазықтықта). 2.",
+     "en": "u = (0; 0; 1), n = (1; 0; 0), u·n = 0, n·(P−A) = 0; the line lies in the plane (its point is in the plane). 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "C",
+    "C₁",
+    "B",
+    "C",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0130",
+  "taskId": "ST-0130",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. A₁C₁, B₁C₁D₁.",
+     "kk": "Өзара орналасуын анықтаңыз. A₁C₁, B₁C₁D₁.",
+     "en": "Determine the relative position. A₁C₁, B₁C₁D₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (1; 1; 0), n = (0; 0; 1), u·n = 0, n·(P−A) = 0; прямая лежит в плоскости (точка прямой в плоскости). 2.",
+     "kk": "u = (1; 1; 0), n = (0; 0; 1), u·n = 0, n·(P−A) = 0; түзу жазықтықта жатыр (түзудің нүктесі жазықтықта). 2.",
+     "en": "u = (1; 1; 0), n = (0; 0; 1), u·n = 0, n·(P−A) = 0; the line lies in the plane (its point is in the plane). 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "A₁",
+    "C₁",
+    "B₁",
+    "C₁",
+    "D₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0131",
+  "taskId": "ST-0131",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. CD, BCB₁.",
+     "kk": "Өзара орналасуын анықтаңыз. CD, BCB₁.",
+     "en": "Determine the relative position. CD, BCB₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (-1; 0; 0), n = (1; 0; 0), u·n = -1; u ∥ n — прямая перпендикулярна плоскости. 3.",
+     "kk": "u = (-1; 0; 0), n = (1; 0; 0), u·n = -1; u ∥ n — түзу жазықтыққа перпендикуляр. 3.",
+     "en": "u = (-1; 0; 0), n = (1; 0; 0), u·n = -1; u ∥ n — the line is perpendicular to the plane. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "C",
+    "D",
+    "B",
+    "C",
+    "B₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0132",
+  "taskId": "ST-0132",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. DD₁, ADC₁.",
+     "kk": "Өзара орналасуын анықтаңыз. DD₁, ADC₁.",
+     "en": "Determine the relative position. DD₁, ADC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (0; 0; 1), n = (1; 0; -1), u·n = -1; u·n ≠ 0, u не параллелен n — пересекает под углом, не равным 90°. 4.",
+     "kk": "u = (0; 0; 1), n = (1; 0; -1), u·n = -1; u·n ≠ 0, u n-ге параллель емес — 90°-қа тең емес бұрышпен қиылысады. 4.",
+     "en": "u = (0; 0; 1), n = (1; 0; -1), u·n = -1; u·n ≠ 0 and u is not parallel to n — intersects at an angle other than 90°. 4."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4",
+   "value": 4,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "D",
+    "D₁",
+    "A",
+    "D",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0133",
+  "taskId": "ST-0133",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. A₁D₁, ADA₁.",
+     "kk": "Өзара орналасуын анықтаңыз. A₁D₁, ADA₁.",
+     "en": "Determine the relative position. A₁D₁, ADA₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (0; 1; 0), n = (1; 0; 0), u·n = 0, n·(P−A) = 0; прямая лежит в плоскости (точка прямой в плоскости). 2.",
+     "kk": "u = (0; 1; 0), n = (1; 0; 0), u·n = 0, n·(P−A) = 0; түзу жазықтықта жатыр (түзудің нүктесі жазықтықта). 2.",
+     "en": "u = (0; 1; 0), n = (1; 0; 0), u·n = 0, n·(P−A) = 0; the line lies in the plane (its point is in the plane). 2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2",
+   "value": 2,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "A₁",
+    "D₁",
+    "A",
+    "D",
+    "A₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0134",
+  "taskId": "ST-0134",
+  "edge": 1,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Определите взаимное расположение. BA₁, ADC₁.",
+     "kk": "Өзара орналасуын анықтаңыз. BA₁, ADC₁.",
+     "en": "Determine the relative position. BA₁, ADC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте прямую и плоскость в 3D-лаборатории и сравните направление прямой с нормалью плоскости.",
+     "kk": "Түзу мен жазықтықты 3D-зертханада салып, түзудің бағытын жазықтық нормалімен салыстырыңыз.",
+     "en": "Construct the line and the plane in the 3D lab and compare the direction of the line with the plane normal."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-021",
+     "RULE-005"
+    ],
+    "text": {
+     "ru": "u = (-1; 0; 1), n = (1; 0; -1), u·n = -2; u ∥ n — прямая перпендикулярна плоскости. 3.",
+     "kk": "u = (-1; 0; 1), n = (1; 0; -1), u·n = -2; u ∥ n — түзу жазықтыққа перпендикуляр. 3.",
+     "en": "u = (-1; 0; 1), n = (1; 0; -1), u·n = -2; u ∥ n — the line is perpendicular to the plane. 3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: прямая перпендикулярна плоскости, только если её направление параллельно нормали.",
+     "kk": "Тексеру: түзу жазықтыққа тек бағыты нормальға параллель болғанда перпендикуляр.",
+     "en": "Check: a line is perpendicular to a plane only if its direction is parallel to the normal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3",
+   "value": 3,
+   "unit": null
+  },
+  "verification": {
+   "op": "relLinePlane",
+   "args": [
+    "B",
+    "A₁",
+    "A",
+    "D",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ }
+]

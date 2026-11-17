@@ -1,0 +1,920 @@
+[
+ {
+  "id": "ST-0005",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_prism",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём: призмы (n=3)",
+    "statement": "Сторона основания правильной треугольной призмы равна 4, высота равна 5. Найдите объём."
+   },
+   "kk": {
+    "title": "Призманың (n=3): көлемін",
+    "statement": "Дұрыс үшбұрышты призманың табанының қабырғасы — 4, биіктігі — 5. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: prism (n=3)",
+    "statement": "The base side of a regular triangular prism is 4 and its height is 5. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0006",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_pyr",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём: пирамиды (n=3)",
+    "statement": "Сторона основания правильной треугольной пирамиды равна 4, высота равна 5. Найдите объём."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=3): көлемін",
+    "statement": "Дұрыс үшбұрышты пирамиданың табанының қабырғасы — 4, биіктігі — 5. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: pyramid (n=3)",
+    "statement": "The base side of a regular triangular pyramid is 4 and its height is 5. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0007",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_prism",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: призмы (n=3)",
+    "statement": "Сторона основания правильной треугольной призмы равна 4, высота равна 5. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Призманың (n=3): толық бетінің ауданын",
+    "statement": "Дұрыс үшбұрышты призманың табанының қабырғасы — 4, биіктігі — 5. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: prism (n=3)",
+    "statement": "The base side of a regular triangular prism is 4 and its height is 5. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0008",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_pyr",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: пирамиды (n=3)",
+    "statement": "Сторона основания правильной треугольной пирамиды равна 4, высота равна 5. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=3): толық бетінің ауданын",
+    "statement": "Дұрыс үшбұрышты пирамиданың табанының қабырғасы — 4, биіктігі — 5. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: pyramid (n=3)",
+    "statement": "The base side of a regular triangular pyramid is 4 and its height is 5. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0009",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "edge",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длину бокового ребра: пирамиды (n=3)",
+    "statement": "Сторона основания правильной треугольной пирамиды равна 4, высота равна 5. Найдите длину бокового ребра."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=3): бүйір қырының ұзындығын",
+    "statement": "Дұрыс үшбұрышты пирамиданың табанының қабырғасы — 4, биіктігі — 5. Бүйір қырының ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of a lateral edge: pyramid (n=3)",
+    "statement": "The base side of a regular triangular pyramid is 4 and its height is 5. Find the length of a lateral edge."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0010",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_prism",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём: призмы (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной призмы равна 6, высота равна 3. Найдите объём."
+   },
+   "kk": {
+    "title": "Призманың (n=4): көлемін",
+    "statement": "Дұрыс төртбұрышты призманың табанының қабырғасы — 6, биіктігі — 3. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: prism (n=4)",
+    "statement": "The base side of a regular square prism is 6 and its height is 3. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0011",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_pyr",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 6, высота равна 3. Найдите объём."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): көлемін",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 3. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 6 and its height is 3. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0012",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_prism",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: призмы (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной призмы равна 6, высота равна 3. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Призманың (n=4): толық бетінің ауданын",
+    "statement": "Дұрыс төртбұрышты призманың табанының қабырғасы — 6, биіктігі — 3. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: prism (n=4)",
+    "statement": "The base side of a regular square prism is 6 and its height is 3. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0013",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_pyr",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 6, высота равна 3. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): толық бетінің ауданын",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 3. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 6 and its height is 3. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0014",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "edge",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длину бокового ребра: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 6, высота равна 3. Найдите длину бокового ребра."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): бүйір қырының ұзындығын",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 3. Бүйір қырының ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of a lateral edge: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 6 and its height is 3. Find the length of a lateral edge."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0015",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_prism",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Объём: призмы (n=6)",
+    "statement": "Сторона основания правильной шестиугольной призмы равна 2, высота равна 7. Найдите объём."
+   },
+   "kk": {
+    "title": "Призманың (n=6): көлемін",
+    "statement": "Дұрыс алтыбұрышты призманың табанының қабырғасы — 2, биіктігі — 7. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: prism (n=6)",
+    "statement": "The base side of a regular hexagonal prism is 2 and its height is 7. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0016",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_pyr",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Объём: пирамиды (n=6)",
+    "statement": "Сторона основания правильной шестиугольной пирамиды равна 2, высота равна 7. Найдите объём."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=6): көлемін",
+    "statement": "Дұрыс алтыбұрышты пирамиданың табанының қабырғасы — 2, биіктігі — 7. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: pyramid (n=6)",
+    "statement": "The base side of a regular hexagonal pyramid is 2 and its height is 7. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0017",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_prism",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: призмы (n=6)",
+    "statement": "Сторона основания правильной шестиугольной призмы равна 2, высота равна 7. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Призманың (n=6): толық бетінің ауданын",
+    "statement": "Дұрыс алтыбұрышты призманың табанының қабырғасы — 2, биіктігі — 7. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: prism (n=6)",
+    "statement": "The base side of a regular hexagonal prism is 2 and its height is 7. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0018",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_pyr",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: пирамиды (n=6)",
+    "statement": "Сторона основания правильной шестиугольной пирамиды равна 2, высота равна 7. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=6): толық бетінің ауданын",
+    "statement": "Дұрыс алтыбұрышты пирамиданың табанының қабырғасы — 2, биіктігі — 7. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: pyramid (n=6)",
+    "statement": "The base side of a regular hexagonal pyramid is 2 and its height is 7. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0019",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "edge",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Длину бокового ребра: пирамиды (n=6)",
+    "statement": "Сторона основания правильной шестиугольной пирамиды равна 2, высота равна 7. Найдите длину бокового ребра."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=6): бүйір қырының ұзындығын",
+    "statement": "Дұрыс алтыбұрышты пирамиданың табанының қабырғасы — 2, биіктігі — 7. Бүйір қырының ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of a lateral edge: pyramid (n=6)",
+    "statement": "The base side of a regular hexagonal pyramid is 2 and its height is 7. Find the length of a lateral edge."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0020",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_prism",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём: призмы (n=3)",
+    "statement": "Сторона основания правильной треугольной призмы равна 6, высота равна 4. Найдите объём."
+   },
+   "kk": {
+    "title": "Призманың (n=3): көлемін",
+    "statement": "Дұрыс үшбұрышты призманың табанының қабырғасы — 6, биіктігі — 4. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: prism (n=3)",
+    "statement": "The base side of a regular triangular prism is 6 and its height is 4. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0021",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_pyr",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём: пирамиды (n=3)",
+    "statement": "Сторона основания правильной треугольной пирамиды равна 6, высота равна 4. Найдите объём."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=3): көлемін",
+    "statement": "Дұрыс үшбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 4. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: pyramid (n=3)",
+    "statement": "The base side of a regular triangular pyramid is 6 and its height is 4. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0022",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_prism",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: призмы (n=3)",
+    "statement": "Сторона основания правильной треугольной призмы равна 6, высота равна 4. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Призманың (n=3): толық бетінің ауданын",
+    "statement": "Дұрыс үшбұрышты призманың табанының қабырғасы — 6, биіктігі — 4. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: prism (n=3)",
+    "statement": "The base side of a regular triangular prism is 6 and its height is 4. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0023",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_pyr",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: пирамиды (n=3)",
+    "statement": "Сторона основания правильной треугольной пирамиды равна 6, высота равна 4. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=3): толық бетінің ауданын",
+    "statement": "Дұрыс үшбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 4. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: pyramid (n=3)",
+    "statement": "The base side of a regular triangular pyramid is 6 and its height is 4. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0024",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "edge",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длину бокового ребра: пирамиды (n=3)",
+    "statement": "Сторона основания правильной треугольной пирамиды равна 6, высота равна 4. Найдите длину бокового ребра."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=3): бүйір қырының ұзындығын",
+    "statement": "Дұрыс үшбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 4. Бүйір қырының ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of a lateral edge: pyramid (n=3)",
+    "statement": "The base side of a regular triangular pyramid is 6 and its height is 4. Find the length of a lateral edge."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0025",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_prism",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём: призмы (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной призмы равна 5, высота равна 8. Найдите объём."
+   },
+   "kk": {
+    "title": "Призманың (n=4): көлемін",
+    "statement": "Дұрыс төртбұрышты призманың табанының қабырғасы — 5, биіктігі — 8. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: prism (n=4)",
+    "statement": "The base side of a regular square prism is 5 and its height is 8. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0026",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_pyr",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 5, высота равна 8. Найдите объём."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): көлемін",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 5, биіктігі — 8. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 5 and its height is 8. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0027",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_prism",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: призмы (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной призмы равна 5, высота равна 8. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Призманың (n=4): толық бетінің ауданын",
+    "statement": "Дұрыс төртбұрышты призманың табанының қабырғасы — 5, биіктігі — 8. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: prism (n=4)",
+    "statement": "The base side of a regular square prism is 5 and its height is 8. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0028",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_pyr",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 5, высота равна 8. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): толық бетінің ауданын",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 5, биіктігі — 8. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 5 and its height is 8. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0029",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "edge",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длину бокового ребра: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 5, высота равна 8. Найдите длину бокового ребра."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): бүйір қырының ұзындығын",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 5, биіктігі — 8. Бүйір қырының ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of a lateral edge: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 5 and its height is 8. Find the length of a lateral edge."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0030",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_prism",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Объём: призмы (n=6)",
+    "statement": "Сторона основания правильной шестиугольной призмы равна 4, высота равна 3. Найдите объём."
+   },
+   "kk": {
+    "title": "Призманың (n=6): көлемін",
+    "statement": "Дұрыс алтыбұрышты призманың табанының қабырғасы — 4, биіктігі — 3. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: prism (n=6)",
+    "statement": "The base side of a regular hexagonal prism is 4 and its height is 3. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0031",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "vol_pyr",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Объём: пирамиды (n=6)",
+    "statement": "Сторона основания правильной шестиугольной пирамиды равна 4, высота равна 3. Найдите объём."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=6): көлемін",
+    "statement": "Дұрыс алтыбұрышты пирамиданың табанының қабырғасы — 4, биіктігі — 3. Көлемін табыңыз."
+   },
+   "en": {
+    "title": "The volume: pyramid (n=6)",
+    "statement": "The base side of a regular hexagonal pyramid is 4 and its height is 3. Find the volume."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0032",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_prism",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: призмы (n=6)",
+    "statement": "Сторона основания правильной шестиугольной призмы равна 4, высота равна 3. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Призманың (n=6): толық бетінің ауданын",
+    "statement": "Дұрыс алтыбұрышты призманың табанының қабырғасы — 4, биіктігі — 3. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: prism (n=6)",
+    "statement": "The base side of a regular hexagonal prism is 4 and its height is 3. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0033",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "surf_pyr",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Площадь полной поверхности: пирамиды (n=6)",
+    "statement": "Сторона основания правильной шестиугольной пирамиды равна 4, высота равна 3. Найдите площадь полной поверхности."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=6): толық бетінің ауданын",
+    "statement": "Дұрыс алтыбұрышты пирамиданың табанының қабырғасы — 4, биіктігі — 3. Толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "The total surface area: pyramid (n=6)",
+    "statement": "The base side of a regular hexagonal pyramid is 4 and its height is 3. Find the total surface area."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0034",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "edge",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Длину бокового ребра: пирамиды (n=6)",
+    "statement": "Сторона основания правильной шестиугольной пирамиды равна 4, высота равна 3. Найдите длину бокового ребра."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=6): бүйір қырының ұзындығын",
+    "statement": "Дұрыс алтыбұрышты пирамиданың табанының қабырғасы — 4, биіктігі — 3. Бүйір қырының ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of a lateral edge: pyramid (n=6)",
+    "statement": "The base side of a regular hexagonal pyramid is 4 and its height is 3. Find the length of a lateral edge."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0035",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "diag",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длину диагонали ac₁: призмы (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной призмы равна 3, высота равна 4. Найдите длину диагонали AC₁."
+   },
+   "kk": {
+    "title": "Призманың (n=4): AC₁ диагоналінің ұзындығын",
+    "statement": "Дұрыс төртбұрышты призманың табанының қабырғасы — 3, биіктігі — 4. AC₁ диагоналінің ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of diagonal ac₁: prism (n=4)",
+    "statement": "The base side of a regular square prism is 3 and its height is 4. Find the length of diagonal AC₁."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0036",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "diag",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длину диагонали ac₁: призмы (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной призмы равна 5, высота равна 2. Найдите длину диагонали AC₁."
+   },
+   "kk": {
+    "title": "Призманың (n=4): AC₁ диагоналінің ұзындығын",
+    "statement": "Дұрыс төртбұрышты призманың табанының қабырғасы — 5, биіктігі — 2. AC₁ диагоналінің ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of diagonal ac₁: prism (n=4)",
+    "statement": "The base side of a regular square prism is 5 and its height is 2. Find the length of diagonal AC₁."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0037",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "diag",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Длину диагонали ad₁: призмы (n=6)",
+    "statement": "Сторона основания правильной шестиугольной призмы равна 2, высота равна 5. Найдите длину диагонали AD₁."
+   },
+   "kk": {
+    "title": "Призманың (n=6): AD₁ диагоналінің ұзындығын",
+    "statement": "Дұрыс алтыбұрышты призманың табанының қабырғасы — 2, биіктігі — 5. AD₁ диагоналінің ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of diagonal ad₁: prism (n=6)",
+    "statement": "The base side of a regular hexagonal prism is 2 and its height is 5. Find the length of diagonal AD₁."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0038",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "diag",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Длину диагонали ad₁: призмы (n=6)",
+    "statement": "Сторона основания правильной шестиугольной призмы равна 3, высота равна 3. Найдите длину диагонали AD₁."
+   },
+   "kk": {
+    "title": "Призманың (n=6): AD₁ диагоналінің ұзындығын",
+    "statement": "Дұрыс алтыбұрышты призманың табанының қабырғасы — 3, биіктігі — 3. AD₁ диагоналінің ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "The length of diagonal ad₁: prism (n=6)",
+    "statement": "The base side of a regular hexagonal prism is 3 and its height is 3. Find the length of diagonal AD₁."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ }
+]

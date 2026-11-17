@@ -1,0 +1,263 @@
+[
+ {
+  "id": "SOL-ST-0001",
+  "taskId": "ST-0001",
+  "edge": 4,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "kk": "Берілгені: куб, қыры 4. AC₁ табу керек.",
+     "ru": "Дано: куб, ребро 4. Найти AC₁.",
+     "en": "Given: cube, edge 4. Find AC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "kk": "Кубтың AC₁ диагоналін салыңыз.",
+     "ru": "Постройте диагональ AC₁ куба.",
+     "en": "Construct the cube diagonal AC₁."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002"
+    ],
+    "text": {
+     "kk": "AC₁² = 4² + 4² + 4² = 48, AC₁ = 4√3.",
+     "ru": "AC₁² = 4² + 4² + 4² = 48, AC₁ = 4√3.",
+     "en": "AC₁² = 4² + 4² + 4² = 48, so AC₁ = 4√3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "kk": "Тексеру: диагональ қырдан ұзын, 4√3 ≈ 6,93 > 4.",
+     "ru": "Проверка: диагональ длиннее ребра, 4√3 ≈ 6,93 > 4.",
+     "en": "Check: the diagonal exceeds the edge, 4√3 ≈ 6.93 > 4."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4*sqrt(3)",
+   "value": 6.928203230275509,
+   "unit": null
+  },
+  "verification": {
+   "op": "distance",
+   "args": [
+    "A",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0002",
+  "taskId": "ST-0002",
+  "edge": 4,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "kk": "Берілгені: куб, қыры 4. A-дан BDA₁ жазықтығына дейінгі қашықтықты табу керек.",
+     "ru": "Дано: куб, ребро 4. Найти расстояние от A до плоскости BDA₁.",
+     "en": "Given: cube, edge 4. Find the distance from A to plane BDA₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "kk": "ABDA₁ тетраэдрін және BDA₁ жазықтығын салыңыз.",
+     "ru": "Постройте тетраэдр ABDA₁ и плоскость BDA₁.",
+     "en": "Construct tetrahedron ABDA₁ and plane BDA₁."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-003",
+     "RULE-004"
+    ],
+    "text": {
+     "kk": "V = 1/3·S(ABD)·AA₁ = 32/3. BDA₁ — қабырғасы 4√2 дұрыс үшбұрыш, S = 8√3. Сонда h = 3V/S = 4/√3 = 4√3/3.",
+     "ru": "V = 1/3·S(ABD)·AA₁ = 32/3. BDA₁ — правильный треугольник со стороной 4√2, S = 8√3. Тогда h = 3V/S = 4/√3 = 4√3/3.",
+     "en": "V = 1/3·S(ABD)·AA₁ = 32/3. BDA₁ is equilateral with side 4√2, S = 8√3. So h = 3V/S = 4/√3 = 4√3/3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "kk": "Тексеру: h < AB = 4, 4√3/3 ≈ 2,31.",
+     "ru": "Проверка: h меньше AB = 4, 4√3/3 ≈ 2,31.",
+     "en": "Check: h is less than AB = 4, 4√3/3 ≈ 2.31."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4*sqrt(3)/3",
+   "value": 2.3094010767585034,
+   "unit": null
+  },
+  "verification": {
+   "op": "pointPlane",
+   "args": [
+    "A",
+    "B",
+    "D",
+    "A₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0003",
+  "taskId": "ST-0003",
+  "edge": 2,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "kk": "Берілгені: куб, қыры 2. ABDA₁ тетраэдрінің көлемін табу керек.",
+     "ru": "Дано: куб, ребро 2. Найти объём тетраэдра ABDA₁.",
+     "en": "Given: cube, edge 2. Find the volume of tetrahedron ABDA₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "kk": "ABDA₁ тетраэдрін салыңыз: табаны ABD, биіктігі AA₁.",
+     "ru": "Постройте тетраэдр ABDA₁: основание ABD, высота AA₁.",
+     "en": "Construct tetrahedron ABDA₁: base ABD, height AA₁."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-004"
+    ],
+    "text": {
+     "kk": "S(ABD) = 1/2·2·2 = 2, V = 1/3·2·2 = 4/3.",
+     "ru": "S(ABD) = 1/2·2·2 = 2, V = 1/3·2·2 = 4/3.",
+     "en": "S(ABD) = 1/2·2·2 = 2, V = 1/3·2·2 = 4/3."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "kk": "Тексеру: V = a³/6 = 8/6 = 4/3.",
+     "ru": "Проверка: V = a³/6 = 8/6 = 4/3.",
+     "en": "Check: V = a³/6 = 8/6 = 4/3."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4/3",
+   "value": 1.3333333333333333,
+   "unit": null
+  },
+  "verification": {
+   "op": "tetraVolume",
+   "args": [
+    "A",
+    "B",
+    "D",
+    "A₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0004",
+  "taskId": "ST-0004",
+  "edge": 4,
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "kk": "Берілгені: куб, қыры 4. AA₁C₁ жазықтығымен қиманың ауданын табу керек.",
+     "ru": "Дано: куб, ребро 4. Найти площадь сечения плоскостью AA₁C₁.",
+     "en": "Given: cube, edge 4. Find the area of the section by plane AA₁C₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [
+     "RULE-001"
+    ],
+    "text": {
+     "kk": "AA₁C₁ жазықтығы C нүктесі арқылы да өтеді; қима — AA₁C₁C төртбұрышы.",
+     "ru": "Плоскость AA₁C₁ проходит и через C; сечение — четырёхугольник AA₁C₁C.",
+     "en": "Plane AA₁C₁ also contains C; the section is quadrilateral AA₁C₁C."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-001",
+     "RULE-006"
+    ],
+    "text": {
+     "kk": "AA₁ ∥ CC₁ және AA₁ ⟂ AC, сондықтан AA₁C₁C — 4 × 4√2 тіктөртбұрыш, S = 16√2.",
+     "ru": "AA₁ ∥ CC₁ и AA₁ ⟂ AC, поэтому AA₁C₁C — прямоугольник 4 × 4√2, S = 16√2.",
+     "en": "AA₁ ∥ CC₁ and AA₁ ⟂ AC, so AA₁C₁C is a 4 × 4√2 rectangle, S = 16√2."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "kk": "Тексеру: ауданы жақтан үлкен (16), 16√2 ≈ 22,6.",
+     "ru": "Проверка: площадь больше грани (16), 16√2 ≈ 22,6.",
+     "en": "Check: the area exceeds a face (16), 16√2 ≈ 22.6."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "16*sqrt(2)",
+   "value": 22.627416997969522,
+   "unit": null
+  },
+  "verification": {
+   "op": "sectionArea",
+   "args": [
+    "A",
+    "A₁",
+    "C₁"
+   ]
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ }
+]

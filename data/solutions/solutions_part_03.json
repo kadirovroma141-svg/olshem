@@ -1,0 +1,558 @@
+[
+ {
+  "id": "SOL-ST-0039",
+  "taskId": "ST-0039",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 4, n = 3. Найти: тангенс угла между боковым ребром и плоскостью основания.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 4, n = 3. Табу керек: бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін.",
+     "en": "Given: base side 6, height 4, n = 3. Find: the tangent of the angle between a lateral edge and the base plane."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-010",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "tg φ = h/R, R — радиус описанной окружности основания (проекция ребра на основание — отрезок длиной R). 4/sqrt(6^2/3) ≈ 1.1547.",
+     "kk": "tg φ = h/R, R — табанның сырттай сызылған шеңбер радиусы (қырдың табандағы проекциясы — ұзындығы R кесінді). 4/sqrt(6^2/3) ≈ 1.1547.",
+     "en": "tg φ = h/R, R is the circumradius of the base (the projection of the edge onto the base has length R). 4/sqrt(6^2/3) ≈ 1.1547."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: угол острый, tg φ > 0; при h → 0 угол стремится к нулю.",
+     "kk": "Тексеру: бұрыш сүйір, tg φ > 0; h → 0 болғанда бұрыш нөлге ұмтылады.",
+     "en": "Check: the angle is acute, tg φ > 0; as h → 0 the angle tends to zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4/sqrt(6^2/3)",
+   "value": 1.1547005383792517,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidTanEdgeBase",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 3,
+    "side": 6,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0040",
+  "taskId": "ST-0040",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 4, n = 3. Найти: тангенс угла между боковой гранью и плоскостью основания.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 4, n = 3. Табу керек: бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін.",
+     "en": "Given: base side 6, height 4, n = 3. Find: the tangent of the angle between a lateral face and the base plane."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-011",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "tg φ = h/r, r — апофема основания; угол SMO — линейный угол двугранного угла. 4/sqrt(6^2/12) ≈ 2.3094.",
+     "kk": "tg φ = h/r, r — табан апофемасы; SMO бұрышы — екіжақты бұрыштың сызықтық бұрышы. 4/sqrt(6^2/12) ≈ 2.3094.",
+     "en": "tg φ = h/r, r is the base apothem; angle SMO is the linear angle of the dihedral angle. 4/sqrt(6^2/12) ≈ 2.3094."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: апофема основания короче радиуса описанной окружности, поэтому tg φ здесь больше, чем для бокового ребра.",
+     "kk": "Тексеру: табан апофемасы сырттай сызылған шеңбер радиусынан қысқа, сондықтан мұндағы tg φ қырға қарағандағы мәннен үлкен.",
+     "en": "Check: the apothem is shorter than the circumradius, so tg φ here exceeds the value for the lateral edge."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4/sqrt(6^2/12)",
+   "value": 2.3094010767585034,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidTanFaceBase",
+   "args": [
+    "A",
+    "B",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 3,
+    "side": 6,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0041",
+  "taskId": "ST-0041",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 3, n = 4. Найти: тангенс угла между боковым ребром и плоскостью основания.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 3, n = 4. Табу керек: бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін.",
+     "en": "Given: base side 4, height 3, n = 4. Find: the tangent of the angle between a lateral edge and the base plane."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-010",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "tg φ = h/R, R — радиус описанной окружности основания (проекция ребра на основание — отрезок длиной R). 3/sqrt(4^2/2) ≈ 1.0607.",
+     "kk": "tg φ = h/R, R — табанның сырттай сызылған шеңбер радиусы (қырдың табандағы проекциясы — ұзындығы R кесінді). 3/sqrt(4^2/2) ≈ 1.0607.",
+     "en": "tg φ = h/R, R is the circumradius of the base (the projection of the edge onto the base has length R). 3/sqrt(4^2/2) ≈ 1.0607."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: угол острый, tg φ > 0; при h → 0 угол стремится к нулю.",
+     "kk": "Тексеру: бұрыш сүйір, tg φ > 0; h → 0 болғанда бұрыш нөлге ұмтылады.",
+     "en": "Check: the angle is acute, tg φ > 0; as h → 0 the angle tends to zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3/sqrt(4^2/2)",
+   "value": 1.0606601717798212,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidTanEdgeBase",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 4,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0042",
+  "taskId": "ST-0042",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 3, n = 4. Найти: тангенс угла между боковой гранью и плоскостью основания.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 3, n = 4. Табу керек: бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін.",
+     "en": "Given: base side 4, height 3, n = 4. Find: the tangent of the angle between a lateral face and the base plane."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-011",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "tg φ = h/r, r — апофема основания; угол SMO — линейный угол двугранного угла. 3/sqrt(4^2/4) ≈ 1.5000.",
+     "kk": "tg φ = h/r, r — табан апофемасы; SMO бұрышы — екіжақты бұрыштың сызықтық бұрышы. 3/sqrt(4^2/4) ≈ 1.5000.",
+     "en": "tg φ = h/r, r is the base apothem; angle SMO is the linear angle of the dihedral angle. 3/sqrt(4^2/4) ≈ 1.5000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: апофема основания короче радиуса описанной окружности, поэтому tg φ здесь больше, чем для бокового ребра.",
+     "kk": "Тексеру: табан апофемасы сырттай сызылған шеңбер радиусынан қысқа, сондықтан мұндағы tg φ қырға қарағандағы мәннен үлкен.",
+     "en": "Check: the apothem is shorter than the circumradius, so tg φ here exceeds the value for the lateral edge."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "3/sqrt(4^2/4)",
+   "value": 1.5,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidTanFaceBase",
+   "args": [
+    "A",
+    "B",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 4,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0043",
+  "taskId": "ST-0043",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 2, высота 5, n = 6. Найти: тангенс угла между боковым ребром и плоскостью основания.",
+     "kk": "Берілгені: табан қабырғасы 2, биіктігі 5, n = 6. Табу керек: бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін.",
+     "en": "Given: base side 2, height 5, n = 6. Find: the tangent of the angle between a lateral edge and the base plane."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-010",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "tg φ = h/R, R — радиус описанной окружности основания (проекция ребра на основание — отрезок длиной R). 5/sqrt(2^2) ≈ 2.5000.",
+     "kk": "tg φ = h/R, R — табанның сырттай сызылған шеңбер радиусы (қырдың табандағы проекциясы — ұзындығы R кесінді). 5/sqrt(2^2) ≈ 2.5000.",
+     "en": "tg φ = h/R, R is the circumradius of the base (the projection of the edge onto the base has length R). 5/sqrt(2^2) ≈ 2.5000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: угол острый, tg φ > 0; при h → 0 угол стремится к нулю.",
+     "kk": "Тексеру: бұрыш сүйір, tg φ > 0; h → 0 болғанда бұрыш нөлге ұмтылады.",
+     "en": "Check: the angle is acute, tg φ > 0; as h → 0 the angle tends to zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "5/sqrt(2^2)",
+   "value": 2.5,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidTanEdgeBase",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 6,
+    "side": 2,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0044",
+  "taskId": "ST-0044",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 2, высота 5, n = 6. Найти: тангенс угла между боковой гранью и плоскостью основания.",
+     "kk": "Берілгені: табан қабырғасы 2, биіктігі 5, n = 6. Табу керек: бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін.",
+     "en": "Given: base side 2, height 5, n = 6. Find: the tangent of the angle between a lateral face and the base plane."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-011",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "tg φ = h/r, r — апофема основания; угол SMO — линейный угол двугранного угла. 5/sqrt(3*2^2/4) ≈ 2.8868.",
+     "kk": "tg φ = h/r, r — табан апофемасы; SMO бұрышы — екіжақты бұрыштың сызықтық бұрышы. 5/sqrt(3*2^2/4) ≈ 2.8868.",
+     "en": "tg φ = h/r, r is the base apothem; angle SMO is the linear angle of the dihedral angle. 5/sqrt(3*2^2/4) ≈ 2.8868."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: апофема основания короче радиуса описанной окружности, поэтому tg φ здесь больше, чем для бокового ребра.",
+     "kk": "Тексеру: табан апофемасы сырттай сызылған шеңбер радиусынан қысқа, сондықтан мұндағы tg φ қырға қарағандағы мәннен үлкен.",
+     "en": "Check: the apothem is shorter than the circumradius, so tg φ here exceeds the value for the lateral edge."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "5/sqrt(3*2^2/4)",
+   "value": 2.886751345948129,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidTanFaceBase",
+   "args": [
+    "A",
+    "B",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 6,
+    "side": 2,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0045",
+  "taskId": "ST-0045",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 5, n = 4. Найти: тангенс угла между боковым ребром и плоскостью основания.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 5, n = 4. Табу керек: бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін.",
+     "en": "Given: base side 6, height 5, n = 4. Find: the tangent of the angle between a lateral edge and the base plane."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-010",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "tg φ = h/R, R — радиус описанной окружности основания (проекция ребра на основание — отрезок длиной R). 5/sqrt(6^2/2) ≈ 1.1785.",
+     "kk": "tg φ = h/R, R — табанның сырттай сызылған шеңбер радиусы (қырдың табандағы проекциясы — ұзындығы R кесінді). 5/sqrt(6^2/2) ≈ 1.1785.",
+     "en": "tg φ = h/R, R is the circumradius of the base (the projection of the edge onto the base has length R). 5/sqrt(6^2/2) ≈ 1.1785."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: угол острый, tg φ > 0; при h → 0 угол стремится к нулю.",
+     "kk": "Тексеру: бұрыш сүйір, tg φ > 0; h → 0 болғанда бұрыш нөлге ұмтылады.",
+     "en": "Check: the angle is acute, tg φ > 0; as h → 0 the angle tends to zero."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "5/sqrt(6^2/2)",
+   "value": 1.1785113019775793,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidTanEdgeBase",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 6,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0046",
+  "taskId": "ST-0046",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 5, n = 4. Найти: тангенс угла между боковой гранью и плоскостью основания.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 5, n = 4. Табу керек: бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін.",
+     "en": "Given: base side 6, height 5, n = 4. Find: the tangent of the angle between a lateral face and the base plane."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-011",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "tg φ = h/r, r — апофема основания; угол SMO — линейный угол двугранного угла. 5/sqrt(6^2/4) ≈ 1.6667.",
+     "kk": "tg φ = h/r, r — табан апофемасы; SMO бұрышы — екіжақты бұрыштың сызықтық бұрышы. 5/sqrt(6^2/4) ≈ 1.6667.",
+     "en": "tg φ = h/r, r is the base apothem; angle SMO is the linear angle of the dihedral angle. 5/sqrt(6^2/4) ≈ 1.6667."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: апофема основания короче радиуса описанной окружности, поэтому tg φ здесь больше, чем для бокового ребра.",
+     "kk": "Тексеру: табан апофемасы сырттай сызылған шеңбер радиусынан қысқа, сондықтан мұндағы tg φ қырға қарағандағы мәннен үлкен.",
+     "en": "Check: the apothem is shorter than the circumradius, so tg φ here exceeds the value for the lateral edge."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "5/sqrt(6^2/4)",
+   "value": 1.6666666666666667,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidTanFaceBase",
+   "args": [
+    "A",
+    "B",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 6,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ }
+]

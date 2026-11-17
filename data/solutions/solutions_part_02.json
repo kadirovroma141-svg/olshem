@@ -1,0 +1,2280 @@
+[
+ {
+  "id": "SOL-ST-0005",
+  "taskId": "ST-0005",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 5, n = 3. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 5, n = 3. Табу керек: көлемін.",
+     "en": "Given: base side 4, height 5, n = 3. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-007",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h. (sqrt(3)/4*4^2)*5 ≈ 34.6410.",
+     "kk": "V = S·h. (sqrt(3)/4*4^2)*5 ≈ 34.6410.",
+     "en": "V = S·h. (sqrt(3)/4*4^2)*5 ≈ 34.6410."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(sqrt(3)/4*4^2)*5",
+   "value": 34.64101615137754,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 3,
+    "side": 4,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0006",
+  "taskId": "ST-0006",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 5, n = 3. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 5, n = 3. Табу керек: көлемін.",
+     "en": "Given: base side 4, height 5, n = 3. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-004",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h/3. (sqrt(3)/4*4^2)*5/3 ≈ 11.5470.",
+     "kk": "V = S·h/3. (sqrt(3)/4*4^2)*5/3 ≈ 11.5470.",
+     "en": "V = S·h/3. (sqrt(3)/4*4^2)*5/3 ≈ 11.5470."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: объём втрое меньше объёма призмы с тем же основанием и высотой.",
+     "kk": "Тексеру: көлем сол табаны мен биіктігі бар призма көлемінен үш есе кіші.",
+     "en": "Check: the volume is one third of the prism with the same base and height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(sqrt(3)/4*4^2)*5/3",
+   "value": 11.547005383792515,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 3,
+    "side": 4,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0007",
+  "taskId": "ST-0007",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 5, n = 3. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 5, n = 3. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 4, height 5, n = 3. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "S = 2·S_осн + P·h, P — периметр основания. 2*(sqrt(3)/4*4^2)+3*4*5 ≈ 73.8564.",
+     "kk": "S = 2·S_табан + P·h, P — табан периметрі. 2*(sqrt(3)/4*4^2)+3*4*5 ≈ 73.8564.",
+     "en": "S = 2·S_base + P·h, P is the base perimeter. 2*(sqrt(3)/4*4^2)+3*4*5 ≈ 73.8564."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*(sqrt(3)/4*4^2)+3*4*5",
+   "value": 73.85640646055101,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 3,
+    "side": 4,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0008",
+  "taskId": "ST-0008",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 5, n = 3. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 5, n = 3. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 4, height 5, n = 3. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = S_осн + P·l/2, l = √(h² + r²), r — апофема основания. (sqrt(3)/4*4^2)+3*4*sqrt(5^2+4^2/12)/2 ≈ 37.7178.",
+     "kk": "S = S_табан + P·l/2, l = √(h² + r²), r — табан апофемасы. (sqrt(3)/4*4^2)+3*4*sqrt(5^2+4^2/12)/2 ≈ 37.7178.",
+     "en": "S = S_base + P·l/2, l = √(h² + r²), r is the base apothem. (sqrt(3)/4*4^2)+3*4*sqrt(5^2+4^2/12)/2 ≈ 37.7178."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(sqrt(3)/4*4^2)+3*4*sqrt(5^2+4^2/12)/2",
+   "value": 37.717811866956815,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 3,
+    "side": 4,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0009",
+  "taskId": "ST-0009",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 5, n = 3. Найти: длину бокового ребра.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 5, n = 3. Табу керек: бүйір қырының ұзындығын.",
+     "en": "Given: base side 4, height 5, n = 3. Find: the length of a lateral edge."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "b = √(h² + R²), R — радиус описанной окружности основания. sqrt(5^2+4^2/3) ≈ 5.5076.",
+     "kk": "b = √(h² + R²), R — табанның сырттай сызылған шеңбер радиусы. sqrt(5^2+4^2/3) ≈ 5.5076.",
+     "en": "b = √(h² + R²), R is the circumradius of the base. sqrt(5^2+4^2/3) ≈ 5.5076."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: ребро длиннее высоты.",
+     "kk": "Тексеру: қыр биіктіктен ұзын.",
+     "en": "Check: the edge is longer than the height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(5^2+4^2/3)",
+   "value": 5.507570547286102,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 3,
+    "side": 4,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0010",
+  "taskId": "ST-0010",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 3, n = 4. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 3, n = 4. Табу керек: көлемін.",
+     "en": "Given: base side 6, height 3, n = 4. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-007",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h. (6^2)*3 ≈ 108.0000.",
+     "kk": "V = S·h. (6^2)*3 ≈ 108.0000.",
+     "en": "V = S·h. (6^2)*3 ≈ 108.0000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(6^2)*3",
+   "value": 108,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 4,
+    "side": 6,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0011",
+  "taskId": "ST-0011",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 3, n = 4. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 3, n = 4. Табу керек: көлемін.",
+     "en": "Given: base side 6, height 3, n = 4. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-004",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h/3. (6^2)*3/3 ≈ 36.0000.",
+     "kk": "V = S·h/3. (6^2)*3/3 ≈ 36.0000.",
+     "en": "V = S·h/3. (6^2)*3/3 ≈ 36.0000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: объём втрое меньше объёма призмы с тем же основанием и высотой.",
+     "kk": "Тексеру: көлем сол табаны мен биіктігі бар призма көлемінен үш есе кіші.",
+     "en": "Check: the volume is one third of the prism with the same base and height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(6^2)*3/3",
+   "value": 36.0,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 6,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0012",
+  "taskId": "ST-0012",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 3, n = 4. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 3, n = 4. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 6, height 3, n = 4. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "S = 2·S_осн + P·h, P — периметр основания. 2*(6^2)+4*6*3 ≈ 144.0000.",
+     "kk": "S = 2·S_табан + P·h, P — табан периметрі. 2*(6^2)+4*6*3 ≈ 144.0000.",
+     "en": "S = 2·S_base + P·h, P is the base perimeter. 2*(6^2)+4*6*3 ≈ 144.0000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*(6^2)+4*6*3",
+   "value": 144,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 4,
+    "side": 6,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0013",
+  "taskId": "ST-0013",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 3, n = 4. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 3, n = 4. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 6, height 3, n = 4. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = S_осн + P·l/2, l = √(h² + r²), r — апофема основания. (6^2)+4*6*sqrt(3^2+6^2/4)/2 ≈ 86.9117.",
+     "kk": "S = S_табан + P·l/2, l = √(h² + r²), r — табан апофемасы. (6^2)+4*6*sqrt(3^2+6^2/4)/2 ≈ 86.9117.",
+     "en": "S = S_base + P·l/2, l = √(h² + r²), r is the base apothem. (6^2)+4*6*sqrt(3^2+6^2/4)/2 ≈ 86.9117."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(6^2)+4*6*sqrt(3^2+6^2/4)/2",
+   "value": 86.91168824543142,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 6,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0014",
+  "taskId": "ST-0014",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 3, n = 4. Найти: длину бокового ребра.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 3, n = 4. Табу керек: бүйір қырының ұзындығын.",
+     "en": "Given: base side 6, height 3, n = 4. Find: the length of a lateral edge."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "b = √(h² + R²), R — радиус описанной окружности основания. sqrt(3^2+6^2/2) ≈ 5.1962.",
+     "kk": "b = √(h² + R²), R — табанның сырттай сызылған шеңбер радиусы. sqrt(3^2+6^2/2) ≈ 5.1962.",
+     "en": "b = √(h² + R²), R is the circumradius of the base. sqrt(3^2+6^2/2) ≈ 5.1962."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: ребро длиннее высоты.",
+     "kk": "Тексеру: қыр биіктіктен ұзын.",
+     "en": "Check: the edge is longer than the height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(3^2+6^2/2)",
+   "value": 5.196152422706632,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 6,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0015",
+  "taskId": "ST-0015",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 2, высота 7, n = 6. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 2, биіктігі 7, n = 6. Табу керек: көлемін.",
+     "en": "Given: base side 2, height 7, n = 6. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-007",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h. (3*sqrt(3)/2*2^2)*7 ≈ 72.7461.",
+     "kk": "V = S·h. (3*sqrt(3)/2*2^2)*7 ≈ 72.7461.",
+     "en": "V = S·h. (3*sqrt(3)/2*2^2)*7 ≈ 72.7461."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(3*sqrt(3)/2*2^2)*7",
+   "value": 72.74613391789285,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 6,
+    "side": 2,
+    "h": 7
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0016",
+  "taskId": "ST-0016",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 2, высота 7, n = 6. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 2, биіктігі 7, n = 6. Табу керек: көлемін.",
+     "en": "Given: base side 2, height 7, n = 6. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-004",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h/3. (3*sqrt(3)/2*2^2)*7/3 ≈ 24.2487.",
+     "kk": "V = S·h/3. (3*sqrt(3)/2*2^2)*7/3 ≈ 24.2487.",
+     "en": "V = S·h/3. (3*sqrt(3)/2*2^2)*7/3 ≈ 24.2487."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: объём втрое меньше объёма призмы с тем же основанием и высотой.",
+     "kk": "Тексеру: көлем сол табаны мен биіктігі бар призма көлемінен үш есе кіші.",
+     "en": "Check: the volume is one third of the prism with the same base and height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(3*sqrt(3)/2*2^2)*7/3",
+   "value": 24.24871130596428,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 6,
+    "side": 2,
+    "h": 7
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0017",
+  "taskId": "ST-0017",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 2, высота 7, n = 6. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 2, биіктігі 7, n = 6. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 2, height 7, n = 6. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "S = 2·S_осн + P·h, P — периметр основания. 2*(3*sqrt(3)/2*2^2)+6*2*7 ≈ 104.7846.",
+     "kk": "S = 2·S_табан + P·h, P — табан периметрі. 2*(3*sqrt(3)/2*2^2)+6*2*7 ≈ 104.7846.",
+     "en": "S = 2·S_base + P·h, P is the base perimeter. 2*(3*sqrt(3)/2*2^2)+6*2*7 ≈ 104.7846."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*(3*sqrt(3)/2*2^2)+6*2*7",
+   "value": 104.78460969082653,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 6,
+    "side": 2,
+    "h": 7
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0018",
+  "taskId": "ST-0018",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 2, высота 7, n = 6. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 2, биіктігі 7, n = 6. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 2, height 7, n = 6. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = S_осн + P·l/2, l = √(h² + r²), r — апофема основания. (3*sqrt(3)/2*2^2)+6*2*sqrt(7^2+3*2^2/4)/2 ≈ 53.6589.",
+     "kk": "S = S_табан + P·l/2, l = √(h² + r²), r — табан апофемасы. (3*sqrt(3)/2*2^2)+6*2*sqrt(7^2+3*2^2/4)/2 ≈ 53.6589.",
+     "en": "S = S_base + P·l/2, l = √(h² + r²), r is the base apothem. (3*sqrt(3)/2*2^2)+6*2*sqrt(7^2+3*2^2/4)/2 ≈ 53.6589."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(3*sqrt(3)/2*2^2)+6*2*sqrt(7^2+3*2^2/4)/2",
+   "value": 53.65892015098113,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 6,
+    "side": 2,
+    "h": 7
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0019",
+  "taskId": "ST-0019",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 2, высота 7, n = 6. Найти: длину бокового ребра.",
+     "kk": "Берілгені: табан қабырғасы 2, биіктігі 7, n = 6. Табу керек: бүйір қырының ұзындығын.",
+     "en": "Given: base side 2, height 7, n = 6. Find: the length of a lateral edge."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "b = √(h² + R²), R — радиус описанной окружности основания. sqrt(7^2+2^2) ≈ 7.2801.",
+     "kk": "b = √(h² + R²), R — табанның сырттай сызылған шеңбер радиусы. sqrt(7^2+2^2) ≈ 7.2801.",
+     "en": "b = √(h² + R²), R is the circumradius of the base. sqrt(7^2+2^2) ≈ 7.2801."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: ребро длиннее высоты.",
+     "kk": "Тексеру: қыр биіктіктен ұзын.",
+     "en": "Check: the edge is longer than the height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(7^2+2^2)",
+   "value": 7.280109889280518,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 6,
+    "side": 2,
+    "h": 7
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0020",
+  "taskId": "ST-0020",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 4, n = 3. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 4, n = 3. Табу керек: көлемін.",
+     "en": "Given: base side 6, height 4, n = 3. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-007",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h. (sqrt(3)/4*6^2)*4 ≈ 62.3538.",
+     "kk": "V = S·h. (sqrt(3)/4*6^2)*4 ≈ 62.3538.",
+     "en": "V = S·h. (sqrt(3)/4*6^2)*4 ≈ 62.3538."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(sqrt(3)/4*6^2)*4",
+   "value": 62.35382907247958,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 3,
+    "side": 6,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0021",
+  "taskId": "ST-0021",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 4, n = 3. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 4, n = 3. Табу керек: көлемін.",
+     "en": "Given: base side 6, height 4, n = 3. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-004",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h/3. (sqrt(3)/4*6^2)*4/3 ≈ 20.7846.",
+     "kk": "V = S·h/3. (sqrt(3)/4*6^2)*4/3 ≈ 20.7846.",
+     "en": "V = S·h/3. (sqrt(3)/4*6^2)*4/3 ≈ 20.7846."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: объём втрое меньше объёма призмы с тем же основанием и высотой.",
+     "kk": "Тексеру: көлем сол табаны мен биіктігі бар призма көлемінен үш есе кіші.",
+     "en": "Check: the volume is one third of the prism with the same base and height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(sqrt(3)/4*6^2)*4/3",
+   "value": 20.784609690826525,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 3,
+    "side": 6,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0022",
+  "taskId": "ST-0022",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 4, n = 3. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 4, n = 3. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 6, height 4, n = 3. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "S = 2·S_осн + P·h, P — периметр основания. 2*(sqrt(3)/4*6^2)+3*6*4 ≈ 103.1769.",
+     "kk": "S = 2·S_табан + P·h, P — табан периметрі. 2*(sqrt(3)/4*6^2)+3*6*4 ≈ 103.1769.",
+     "en": "S = 2·S_base + P·h, P is the base perimeter. 2*(sqrt(3)/4*6^2)+3*6*4 ≈ 103.1769."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*(sqrt(3)/4*6^2)+3*6*4",
+   "value": 103.17691453623979,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 3,
+    "side": 6,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0023",
+  "taskId": "ST-0023",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 4, n = 3. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 4, n = 3. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 6, height 4, n = 3. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = S_осн + P·l/2, l = √(h² + r²), r — апофема основания. (sqrt(3)/4*6^2)+3*6*sqrt(4^2+6^2/12)/2 ≈ 54.8185.",
+     "kk": "S = S_табан + P·l/2, l = √(h² + r²), r — табан апофемасы. (sqrt(3)/4*6^2)+3*6*sqrt(4^2+6^2/12)/2 ≈ 54.8185.",
+     "en": "S = S_base + P·l/2, l = √(h² + r²), r is the base apothem. (sqrt(3)/4*6^2)+3*6*sqrt(4^2+6^2/12)/2 ≈ 54.8185."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(sqrt(3)/4*6^2)+3*6*sqrt(4^2+6^2/12)/2",
+   "value": 54.81854775998596,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 3,
+    "side": 6,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0024",
+  "taskId": "ST-0024",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 6, высота 4, n = 3. Найти: длину бокового ребра.",
+     "kk": "Берілгені: табан қабырғасы 6, биіктігі 4, n = 3. Табу керек: бүйір қырының ұзындығын.",
+     "en": "Given: base side 6, height 4, n = 3. Find: the length of a lateral edge."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "b = √(h² + R²), R — радиус описанной окружности основания. sqrt(4^2+6^2/3) ≈ 5.2915.",
+     "kk": "b = √(h² + R²), R — табанның сырттай сызылған шеңбер радиусы. sqrt(4^2+6^2/3) ≈ 5.2915.",
+     "en": "b = √(h² + R²), R is the circumradius of the base. sqrt(4^2+6^2/3) ≈ 5.2915."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: ребро длиннее высоты.",
+     "kk": "Тексеру: қыр биіктіктен ұзын.",
+     "en": "Check: the edge is longer than the height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(4^2+6^2/3)",
+   "value": 5.291502622129181,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 3,
+    "side": 6,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0025",
+  "taskId": "ST-0025",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 5, высота 8, n = 4. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 5, биіктігі 8, n = 4. Табу керек: көлемін.",
+     "en": "Given: base side 5, height 8, n = 4. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-007",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h. (5^2)*8 ≈ 200.0000.",
+     "kk": "V = S·h. (5^2)*8 ≈ 200.0000.",
+     "en": "V = S·h. (5^2)*8 ≈ 200.0000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(5^2)*8",
+   "value": 200,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 4,
+    "side": 5,
+    "h": 8
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0026",
+  "taskId": "ST-0026",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 5, высота 8, n = 4. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 5, биіктігі 8, n = 4. Табу керек: көлемін.",
+     "en": "Given: base side 5, height 8, n = 4. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-004",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h/3. (5^2)*8/3 ≈ 66.6667.",
+     "kk": "V = S·h/3. (5^2)*8/3 ≈ 66.6667.",
+     "en": "V = S·h/3. (5^2)*8/3 ≈ 66.6667."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: объём втрое меньше объёма призмы с тем же основанием и высотой.",
+     "kk": "Тексеру: көлем сол табаны мен биіктігі бар призма көлемінен үш есе кіші.",
+     "en": "Check: the volume is one third of the prism with the same base and height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(5^2)*8/3",
+   "value": 66.66666666666667,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 5,
+    "h": 8
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0027",
+  "taskId": "ST-0027",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 5, высота 8, n = 4. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 5, биіктігі 8, n = 4. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 5, height 8, n = 4. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "S = 2·S_осн + P·h, P — периметр основания. 2*(5^2)+4*5*8 ≈ 210.0000.",
+     "kk": "S = 2·S_табан + P·h, P — табан периметрі. 2*(5^2)+4*5*8 ≈ 210.0000.",
+     "en": "S = 2·S_base + P·h, P is the base perimeter. 2*(5^2)+4*5*8 ≈ 210.0000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*(5^2)+4*5*8",
+   "value": 210,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 4,
+    "side": 5,
+    "h": 8
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0028",
+  "taskId": "ST-0028",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 5, высота 8, n = 4. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 5, биіктігі 8, n = 4. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 5, height 8, n = 4. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = S_осн + P·l/2, l = √(h² + r²), r — апофема основания. (5^2)+4*5*sqrt(8^2+5^2/4)/2 ≈ 108.8153.",
+     "kk": "S = S_табан + P·l/2, l = √(h² + r²), r — табан апофемасы. (5^2)+4*5*sqrt(8^2+5^2/4)/2 ≈ 108.8153.",
+     "en": "S = S_base + P·l/2, l = √(h² + r²), r is the base apothem. (5^2)+4*5*sqrt(8^2+5^2/4)/2 ≈ 108.8153."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(5^2)+4*5*sqrt(8^2+5^2/4)/2",
+   "value": 108.81527307120106,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 5,
+    "h": 8
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0029",
+  "taskId": "ST-0029",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 5, высота 8, n = 4. Найти: длину бокового ребра.",
+     "kk": "Берілгені: табан қабырғасы 5, биіктігі 8, n = 4. Табу керек: бүйір қырының ұзындығын.",
+     "en": "Given: base side 5, height 8, n = 4. Find: the length of a lateral edge."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "b = √(h² + R²), R — радиус описанной окружности основания. sqrt(8^2+5^2/2) ≈ 8.7464.",
+     "kk": "b = √(h² + R²), R — табанның сырттай сызылған шеңбер радиусы. sqrt(8^2+5^2/2) ≈ 8.7464.",
+     "en": "b = √(h² + R²), R is the circumradius of the base. sqrt(8^2+5^2/2) ≈ 8.7464."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: ребро длиннее высоты.",
+     "kk": "Тексеру: қыр биіктіктен ұзын.",
+     "en": "Check: the edge is longer than the height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(8^2+5^2/2)",
+   "value": 8.74642784226795,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 4,
+    "side": 5,
+    "h": 8
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0030",
+  "taskId": "ST-0030",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 3, n = 6. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 3, n = 6. Табу керек: көлемін.",
+     "en": "Given: base side 4, height 3, n = 6. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-007",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h. (3*sqrt(3)/2*4^2)*3 ≈ 124.7077.",
+     "kk": "V = S·h. (3*sqrt(3)/2*4^2)*3 ≈ 124.7077.",
+     "en": "V = S·h. (3*sqrt(3)/2*4^2)*3 ≈ 124.7077."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(3*sqrt(3)/2*4^2)*3",
+   "value": 124.70765814495917,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 6,
+    "side": 4,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0031",
+  "taskId": "ST-0031",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 3, n = 6. Найти: объём.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 3, n = 6. Табу керек: көлемін.",
+     "en": "Given: base side 4, height 3, n = 6. Find: the volume."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-004",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "V = S·h/3. (3*sqrt(3)/2*4^2)*3/3 ≈ 41.5692.",
+     "kk": "V = S·h/3. (3*sqrt(3)/2*4^2)*3/3 ≈ 41.5692.",
+     "en": "V = S·h/3. (3*sqrt(3)/2*4^2)*3/3 ≈ 41.5692."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: объём втрое меньше объёма призмы с тем же основанием и высотой.",
+     "kk": "Тексеру: көлем сол табаны мен биіктігі бар призма көлемінен үш есе кіші.",
+     "en": "Check: the volume is one third of the prism with the same base and height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(3*sqrt(3)/2*4^2)*3/3",
+   "value": 41.569219381653056,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidVolume",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 6,
+    "side": 4,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0032",
+  "taskId": "ST-0032",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 3, n = 6. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 3, n = 6. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 4, height 3, n = 6. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "S = 2·S_осн + P·h, P — периметр основания. 2*(3*sqrt(3)/2*4^2)+6*4*3 ≈ 155.1384.",
+     "kk": "S = 2·S_табан + P·h, P — табан периметрі. 2*(3*sqrt(3)/2*4^2)+6*4*3 ≈ 155.1384.",
+     "en": "S = 2·S_base + P·h, P is the base perimeter. 2*(3*sqrt(3)/2*4^2)+6*4*3 ≈ 155.1384."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*(3*sqrt(3)/2*4^2)+6*4*3",
+   "value": 155.1384387633061,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "prism",
+    "n": 6,
+    "side": 4,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0033",
+  "taskId": "ST-0033",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 3, n = 6. Найти: площадь полной поверхности.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 3, n = 6. Табу керек: толық бетінің ауданын.",
+     "en": "Given: base side 4, height 3, n = 6. Find: the total surface area."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-009",
+     "RULE-008",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = S_осн + P·l/2, l = √(h² + r²), r — апофема основания. (3*sqrt(3)/2*4^2)+6*4*sqrt(3^2+3*4^2/4)/2 ≈ 96.5601.",
+     "kk": "S = S_табан + P·l/2, l = √(h² + r²), r — табан апофемасы. (3*sqrt(3)/2*4^2)+6*4*sqrt(3^2+3*4^2/4)/2 ≈ 96.5601.",
+     "en": "S = S_base + P·l/2, l = √(h² + r²), r is the base apothem. (3*sqrt(3)/2*4^2)+6*4*sqrt(3^2+3*4^2/4)/2 ≈ 96.5601."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "(3*sqrt(3)/2*4^2)+6*4*sqrt(3^2+3*4^2/4)/2",
+   "value": 96.56012772112314,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidSurface",
+   "args": [],
+   "solid": {
+    "kind": "pyramid",
+    "n": 6,
+    "side": 4,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0034",
+  "taskId": "ST-0034",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 4, высота 3, n = 6. Найти: длину бокового ребра.",
+     "kk": "Берілгені: табан қабырғасы 4, биіктігі 3, n = 6. Табу керек: бүйір қырының ұзындығын.",
+     "en": "Given: base side 4, height 3, n = 6. Find: the length of a lateral edge."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "b = √(h² + R²), R — радиус описанной окружности основания. sqrt(3^2+4^2) ≈ 5.0000.",
+     "kk": "b = √(h² + R²), R — табанның сырттай сызылған шеңбер радиусы. sqrt(3^2+4^2) ≈ 5.0000.",
+     "en": "b = √(h² + R²), R is the circumradius of the base. sqrt(3^2+4^2) ≈ 5.0000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: ребро длиннее высоты.",
+     "kk": "Тексеру: қыр биіктіктен ұзын.",
+     "en": "Check: the edge is longer than the height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(3^2+4^2)",
+   "value": 5.0,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "S"
+   ],
+   "solid": {
+    "kind": "pyramid",
+    "n": 6,
+    "side": 4,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0035",
+  "taskId": "ST-0035",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 3, высота 4, n = 4. Найти: длину диагонали AC₁.",
+     "kk": "Берілгені: табан қабырғасы 3, биіктігі 4, n = 4. Табу керек: AC₁ диагоналінің ұзындығын.",
+     "en": "Given: base side 3, height 4, n = 4. Find: the length of diagonal AC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "d² = (диагональ основания)² + h². sqrt(2*3^2+4^2) ≈ 5.8310.",
+     "kk": "d² = (табан диагоналі)² + h². sqrt(2*3^2+4^2) ≈ 5.8310.",
+     "en": "d² = (base diagonal)² + h². sqrt(2*3^2+4^2) ≈ 5.8310."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: диагональ длиннее высоты и диагонали основания.",
+     "kk": "Тексеру: диагональ биіктіктен және табан диагоналінен ұзын.",
+     "en": "Check: the diagonal exceeds both the height and the base diagonal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(2*3^2+4^2)",
+   "value": 5.830951894845301,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "C₁"
+   ],
+   "solid": {
+    "kind": "prism",
+    "n": 4,
+    "side": 3,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0036",
+  "taskId": "ST-0036",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 5, высота 2, n = 4. Найти: длину диагонали AC₁.",
+     "kk": "Берілгені: табан қабырғасы 5, биіктігі 2, n = 4. Табу керек: AC₁ диагоналінің ұзындығын.",
+     "en": "Given: base side 5, height 2, n = 4. Find: the length of diagonal AC₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "d² = (диагональ основания)² + h². sqrt(2*5^2+2^2) ≈ 7.3485.",
+     "kk": "d² = (табан диагоналі)² + h². sqrt(2*5^2+2^2) ≈ 7.3485.",
+     "en": "d² = (base diagonal)² + h². sqrt(2*5^2+2^2) ≈ 7.3485."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: диагональ длиннее высоты и диагонали основания.",
+     "kk": "Тексеру: диагональ биіктіктен және табан диагоналінен ұзын.",
+     "en": "Check: the diagonal exceeds both the height and the base diagonal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(2*5^2+2^2)",
+   "value": 7.3484692283495345,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "C₁"
+   ],
+   "solid": {
+    "kind": "prism",
+    "n": 4,
+    "side": 5,
+    "h": 2
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0037",
+  "taskId": "ST-0037",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 2, высота 5, n = 6. Найти: длину диагонали AD₁.",
+     "kk": "Берілгені: табан қабырғасы 2, биіктігі 5, n = 6. Табу керек: AD₁ диагоналінің ұзындығын.",
+     "en": "Given: base side 2, height 5, n = 6. Find: the length of diagonal AD₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "d² = (диагональ основания)² + h². sqrt(4*2^2+5^2) ≈ 6.4031.",
+     "kk": "d² = (табан диагоналі)² + h². sqrt(4*2^2+5^2) ≈ 6.4031.",
+     "en": "d² = (base diagonal)² + h². sqrt(4*2^2+5^2) ≈ 6.4031."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: диагональ длиннее высоты и диагонали основания.",
+     "kk": "Тексеру: диагональ биіктіктен және табан диагоналінен ұзын.",
+     "en": "Check: the diagonal exceeds both the height and the base diagonal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(4*2^2+5^2)",
+   "value": 6.4031242374328485,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "D₁"
+   ],
+   "solid": {
+    "kind": "prism",
+    "n": 6,
+    "side": 2,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0038",
+  "taskId": "ST-0038",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: сторона основания 3, высота 3, n = 6. Найти: длину диагонали AD₁.",
+     "kk": "Берілгені: табан қабырғасы 3, биіктігі 3, n = 6. Табу керек: AD₁ диагоналінің ұзындығын.",
+     "en": "Given: base side 3, height 3, n = 6. Find: the length of diagonal AD₁."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте фигуру в 3D-лаборатории и отметьте нужные элементы.",
+     "kk": "3D-зертханада фигураны салып, қажетті элементтерді белгілеңіз.",
+     "en": "Construct the solid in the 3D lab and mark the needed elements."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-002",
+     "RULE-008"
+    ],
+    "text": {
+     "ru": "d² = (диагональ основания)² + h². sqrt(4*3^2+3^2) ≈ 6.7082.",
+     "kk": "d² = (табан диагоналі)² + h². sqrt(4*3^2+3^2) ≈ 6.7082.",
+     "en": "d² = (base diagonal)² + h². sqrt(4*3^2+3^2) ≈ 6.7082."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: диагональ длиннее высоты и диагонали основания.",
+     "kk": "Тексеру: диагональ биіктіктен және табан диагоналінен ұзын.",
+     "en": "Check: the diagonal exceeds both the height and the base diagonal."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(4*3^2+3^2)",
+   "value": 6.708203932499369,
+   "unit": null
+  },
+  "verification": {
+   "op": "solidEdge",
+   "args": [
+    "A",
+    "D₁"
+   ],
+   "solid": {
+    "kind": "prism",
+    "n": 6,
+    "side": 3,
+    "h": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ }
+]

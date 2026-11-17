@@ -1,0 +1,542 @@
+[
+ {
+  "id": "ST-0077",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "dist",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длина отрезка по координатам",
+    "statement": "Даны точки A(-2; 2; 5), B(5; -2; 0). Найдите длину отрезка AB."
+   },
+   "kk": {
+    "title": "Координаталар бойынша кесінді ұзындығы",
+    "statement": "Нүктелер берілген: A(-2; 2; 5), B(5; -2; 0). AB кесіндісінің ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "Segment length from coordinates",
+    "statement": "Given points A(-2; 2; 5), B(5; -2; 0). Find the length of segment AB."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0078",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "dist",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длина отрезка по координатам",
+    "statement": "Даны точки A(5; 3; 5), B(4; 4; 0). Найдите длину отрезка AB."
+   },
+   "kk": {
+    "title": "Координаталар бойынша кесінді ұзындығы",
+    "statement": "Нүктелер берілген: A(5; 3; 5), B(4; 4; 0). AB кесіндісінің ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "Segment length from coordinates",
+    "statement": "Given points A(5; 3; 5), B(4; 4; 0). Find the length of segment AB."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0079",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "dist",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длина отрезка по координатам",
+    "statement": "Даны точки A(-3; -2; -2), B(1; -2; 4). Найдите длину отрезка AB."
+   },
+   "kk": {
+    "title": "Координаталар бойынша кесінді ұзындығы",
+    "statement": "Нүктелер берілген: A(-3; -2; -2), B(1; -2; 4). AB кесіндісінің ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "Segment length from coordinates",
+    "statement": "Given points A(-3; -2; -2), B(1; -2; 4). Find the length of segment AB."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0080",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "dist",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Длина отрезка по координатам",
+    "statement": "Даны точки A(-3; 4; 2), B(0; 3; 1). Найдите длину отрезка AB."
+   },
+   "kk": {
+    "title": "Координаталар бойынша кесінді ұзындығы",
+    "statement": "Нүктелер берілген: A(-3; 4; 2), B(0; 3; 1). AB кесіндісінің ұзындығын табыңыз."
+   },
+   "en": {
+    "title": "Segment length from coordinates",
+    "statement": "Given points A(-3; 4; 2), B(0; 3; 1). Find the length of segment AB."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0081",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "cos",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Угол между векторами",
+    "statement": "Даны точки A(2; 2; 3), B(5; -2; 2), C(-2; 5; 5). Найдите косинус угла BAC."
+   },
+   "kk": {
+    "title": "Векторлар арасындағы бұрыш",
+    "statement": "Нүктелер берілген: A(2; 2; 3), B(5; -2; 2), C(-2; 5; 5). BAC бұрышының косинусын табыңыз."
+   },
+   "en": {
+    "title": "Angle between vectors",
+    "statement": "Given points A(2; 2; 3), B(5; -2; 2), C(-2; 5; 5). Find the cosine of angle BAC."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0082",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "cos",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Угол между векторами",
+    "statement": "Даны точки A(1; 1; 4), B(-1; 1; -3), C(2; 2; 4). Найдите косинус угла BAC."
+   },
+   "kk": {
+    "title": "Векторлар арасындағы бұрыш",
+    "statement": "Нүктелер берілген: A(1; 1; 4), B(-1; 1; -3), C(2; 2; 4). BAC бұрышының косинусын табыңыз."
+   },
+   "en": {
+    "title": "Angle between vectors",
+    "statement": "Given points A(1; 1; 4), B(-1; 1; -3), C(2; 2; 4). Find the cosine of angle BAC."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0083",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "cos",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Угол между векторами",
+    "statement": "Даны точки A(3; -2; 3), B(5; 4; -2), C(3; 5; 4). Найдите косинус угла BAC."
+   },
+   "kk": {
+    "title": "Векторлар арасындағы бұрыш",
+    "statement": "Нүктелер берілген: A(3; -2; 3), B(5; 4; -2), C(3; 5; 4). BAC бұрышының косинусын табыңыз."
+   },
+   "en": {
+    "title": "Angle between vectors",
+    "statement": "Given points A(3; -2; 3), B(5; 4; -2), C(3; 5; 4). Find the cosine of angle BAC."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0084",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "cos",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Угол между векторами",
+    "statement": "Даны точки A(3; 5; 1), B(3; 4; 5), C(5; -3; 0). Найдите косинус угла BAC."
+   },
+   "kk": {
+    "title": "Векторлар арасындағы бұрыш",
+    "statement": "Нүктелер берілген: A(3; 5; 1), B(3; 4; 5), C(5; -3; 0). BAC бұрышының косинусын табыңыз."
+   },
+   "en": {
+    "title": "Angle between vectors",
+    "statement": "Given points A(3; 5; 1), B(3; 4; 5), C(5; -3; 0). Find the cosine of angle BAC."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0085",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "vol",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Объём тетраэдра по координатам",
+    "statement": "Даны точки A(-1; -3; 5), B(-2; 3; 4), C(-1; 4; 0), D(-2; 4; 4). Найдите объём тетраэдра ABCD."
+   },
+   "kk": {
+    "title": "Координаталар бойынша тетраэдр көлемі",
+    "statement": "Нүктелер берілген: A(-1; -3; 5), B(-2; 3; 4), C(-1; 4; 0), D(-2; 4; 4). ABCD тетраэдрінің көлемін табыңыз."
+   },
+   "en": {
+    "title": "Tetrahedron volume from coordinates",
+    "statement": "Given points A(-1; -3; 5), B(-2; 3; 4), C(-1; 4; 0), D(-2; 4; 4). Find the volume of tetrahedron ABCD."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0086",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "vol",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Объём тетраэдра по координатам",
+    "statement": "Даны точки A(5; 1; 5), B(3; 1; 5), C(5; 4; 3), D(3; 0; 1). Найдите объём тетраэдра ABCD."
+   },
+   "kk": {
+    "title": "Координаталар бойынша тетраэдр көлемі",
+    "statement": "Нүктелер берілген: A(5; 1; 5), B(3; 1; 5), C(5; 4; 3), D(3; 0; 1). ABCD тетраэдрінің көлемін табыңыз."
+   },
+   "en": {
+    "title": "Tetrahedron volume from coordinates",
+    "statement": "Given points A(5; 1; 5), B(3; 1; 5), C(5; 4; 3), D(3; 0; 1). Find the volume of tetrahedron ABCD."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0087",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "vol",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Объём тетраэдра по координатам",
+    "statement": "Даны точки A(1; -3; -3), B(-1; 4; 5), C(4; 2; 0), D(1; 4; 4). Найдите объём тетраэдра ABCD."
+   },
+   "kk": {
+    "title": "Координаталар бойынша тетраэдр көлемі",
+    "statement": "Нүктелер берілген: A(1; -3; -3), B(-1; 4; 5), C(4; 2; 0), D(1; 4; 4). ABCD тетраэдрінің көлемін табыңыз."
+   },
+   "en": {
+    "title": "Tetrahedron volume from coordinates",
+    "statement": "Given points A(1; -3; -3), B(-1; 4; 5), C(4; 2; 0), D(1; 4; 4). Find the volume of tetrahedron ABCD."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0088",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "vol",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Объём тетраэдра по координатам",
+    "statement": "Даны точки A(5; 4; 3), B(5; -3; 1), C(2; 4; -2), D(4; 5; 1). Найдите объём тетраэдра ABCD."
+   },
+   "kk": {
+    "title": "Координаталар бойынша тетраэдр көлемі",
+    "statement": "Нүктелер берілген: A(5; 4; 3), B(5; -3; 1), C(2; 4; -2), D(4; 5; 1). ABCD тетраэдрінің көлемін табыңыз."
+   },
+   "en": {
+    "title": "Tetrahedron volume from coordinates",
+    "statement": "Given points A(5; 4; 3), B(5; -3; 1), C(2; 4; -2), D(4; 5; 1). Find the volume of tetrahedron ABCD."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0089",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "pp",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Расстояние от точки до плоскости",
+    "statement": "Даны точки P(4; -1; 3), A(4; -2; 1), B(4; 2; -2), C(0; 3; -1). Найдите расстояние от точки P до плоскости ABC."
+   },
+   "kk": {
+    "title": "Нүктеден жазықтыққа дейінгі қашықтық",
+    "statement": "Нүктелер берілген: P(4; -1; 3), A(4; -2; 1), B(4; 2; -2), C(0; 3; -1). P нүктесінен ABC жазықтығына дейінгі қашықтықты табыңыз."
+   },
+   "en": {
+    "title": "Distance from a point to a plane",
+    "statement": "Given points P(4; -1; 3), A(4; -2; 1), B(4; 2; -2), C(0; 3; -1). Find the distance from point P to plane ABC."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0090",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "pp",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Расстояние от точки до плоскости",
+    "statement": "Даны точки P(4; -3; -2), A(-3; 4; 5), B(-2; 0; 0), C(-2; -3; 5). Найдите расстояние от точки P до плоскости ABC."
+   },
+   "kk": {
+    "title": "Нүктеден жазықтыққа дейінгі қашықтық",
+    "statement": "Нүктелер берілген: P(4; -3; -2), A(-3; 4; 5), B(-2; 0; 0), C(-2; -3; 5). P нүктесінен ABC жазықтығына дейінгі қашықтықты табыңыз."
+   },
+   "en": {
+    "title": "Distance from a point to a plane",
+    "statement": "Given points P(4; -3; -2), A(-3; 4; 5), B(-2; 0; 0), C(-2; -3; 5). Find the distance from point P to plane ABC."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0091",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "pp",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Расстояние от точки до плоскости",
+    "statement": "Даны точки P(1; 2; -1), A(-3; 2; 4), B(-1; 5; 0), C(4; -1; 5). Найдите расстояние от точки P до плоскости ABC."
+   },
+   "kk": {
+    "title": "Нүктеден жазықтыққа дейінгі қашықтық",
+    "statement": "Нүктелер берілген: P(1; 2; -1), A(-3; 2; 4), B(-1; 5; 0), C(4; -1; 5). P нүктесінен ABC жазықтығына дейінгі қашықтықты табыңыз."
+   },
+   "en": {
+    "title": "Distance from a point to a plane",
+    "statement": "Given points P(1; 2; -1), A(-3; 2; 4), B(-1; 5; 0), C(4; -1; 5). Find the distance from point P to plane ABC."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0092",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "pp",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Расстояние от точки до плоскости",
+    "statement": "Даны точки P(1; -2; 3), A(-1; -1; 1), B(5; 3; 3), C(-1; 5; 0). Найдите расстояние от точки P до плоскости ABC."
+   },
+   "kk": {
+    "title": "Нүктеден жазықтыққа дейінгі қашықтық",
+    "statement": "Нүктелер берілген: P(1; -2; 3), A(-1; -1; 1), B(5; 3; 3), C(-1; 5; 0). P нүктесінен ABC жазықтығына дейінгі қашықтықты табыңыз."
+   },
+   "en": {
+    "title": "Distance from a point to a plane",
+    "statement": "Given points P(1; -2; 3), A(-1; -1; 1), B(5; 3; 3), C(-1; 5; 0). Find the distance from point P to plane ABC."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0093",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "skew",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Расстояние между скрещивающимися прямыми",
+    "statement": "Даны точки A(3; -3; -2), B(3; -2; -3), C(2; 2; -3), D(-3; 5; 4). Найдите расстояние между прямыми AB и CD."
+   },
+   "kk": {
+    "title": "Айқас түзулер арасындағы қашықтық",
+    "statement": "Нүктелер берілген: A(3; -3; -2), B(3; -2; -3), C(2; 2; -3), D(-3; 5; 4). AB және CD түзулерінің арасындағы қашықтықты табыңыз."
+   },
+   "en": {
+    "title": "Distance between skew lines",
+    "statement": "Given points A(3; -3; -2), B(3; -2; -3), C(2; 2; -3), D(-3; 5; 4). Find the distance between lines AB and CD."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0094",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "skew",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Расстояние между скрещивающимися прямыми",
+    "statement": "Даны точки A(2; 1; 4), B(2; -2; 4), C(4; -1; -1), D(5; 0; 3). Найдите расстояние между прямыми AB и CD."
+   },
+   "kk": {
+    "title": "Айқас түзулер арасындағы қашықтық",
+    "statement": "Нүктелер берілген: A(2; 1; 4), B(2; -2; 4), C(4; -1; -1), D(5; 0; 3). AB және CD түзулерінің арасындағы қашықтықты табыңыз."
+   },
+   "en": {
+    "title": "Distance between skew lines",
+    "statement": "Given points A(2; 1; 4), B(2; -2; 4), C(4; -1; -1), D(5; 0; 3). Find the distance between lines AB and CD."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0095",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "skew",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Расстояние между скрещивающимися прямыми",
+    "statement": "Даны точки A(2; 4; 0), B(-2; 5; 3), C(-3; 0; -1), D(-3; 5; -3). Найдите расстояние между прямыми AB и CD."
+   },
+   "kk": {
+    "title": "Айқас түзулер арасындағы қашықтық",
+    "statement": "Нүктелер берілген: A(2; 4; 0), B(-2; 5; 3), C(-3; 0; -1), D(-3; 5; -3). AB және CD түзулерінің арасындағы қашықтықты табыңыз."
+   },
+   "en": {
+    "title": "Distance between skew lines",
+    "statement": "Given points A(2; 4; 0), B(-2; 5; 3), C(-3; 0; -1), D(-3; 5; -3). Find the distance between lines AB and CD."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0096",
+  "grade": 11,
+  "topic": "coordinates",
+  "subtopic": "skew",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Расстояние между скрещивающимися прямыми",
+    "statement": "Даны точки A(4; 0; 4), B(-3; -1; 5), C(0; 5; -1), D(-1; -1; 3). Найдите расстояние между прямыми AB и CD."
+   },
+   "kk": {
+    "title": "Айқас түзулер арасындағы қашықтық",
+    "statement": "Нүктелер берілген: A(4; 0; 4), B(-3; -1; 5), C(0; 5; -1), D(-1; -1; 3). AB және CD түзулерінің арасындағы қашықтықты табыңыз."
+   },
+   "en": {
+    "title": "Distance between skew lines",
+    "statement": "Given points A(4; 0; 4), B(-3; -1; 5), C(0; 5; -1), D(-1; -1; 3). Find the distance between lines AB and CD."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ }
+]

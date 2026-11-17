@@ -1,0 +1,1028 @@
+[
+ {
+  "id": "ST-0097",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и A₁C₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және A₁C₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and A₁C₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0098",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых CD и AB. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында CD және AB түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines CD and AB. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0099",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и AB. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және AB түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and AB. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0100",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и CB₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және CB₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and CB₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0101",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых BC₁ и AD₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында BC₁ және AD₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines BC₁ and AD₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0102",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых CD и A₁B₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында CD және A₁B₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines CD and A₁B₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0103",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и BC₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және BC₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and BC₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0104",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и BB₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және BB₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and BB₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0105",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и AB₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және AB₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and AB₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0106",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и BD. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және BD түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and BD. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0107",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и CD. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және CD түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and CD. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0108",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых BA₁ и CD₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында BA₁ және CD₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines BA₁ and CD₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0109",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и DD₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және DD₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and DD₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0110",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и AD. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және AD түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and AD. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0111",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и BA₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және BA₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and BA₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0112",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и DB₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және DB₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and DB₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0113",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и BC. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және BC түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and BC. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0114",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и DC₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және DC₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and DC₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0115",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых CD и C₁D₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында CD және C₁D₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines CD and C₁D₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0116",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых BB₁ и DD₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында BB₁ және DD₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines BB₁ and DD₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0117",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и BD₁. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және BD₁ түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and BD₁. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0118",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "lines",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямых B₁D₁ и AC. Ответ запишите числом: 1 — параллельны, 2 — пересекаются, 3 — скрещиваются."
+   },
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "ABCDA₁B₁C₁D₁ кубында B₁D₁ және AC түзулерінің өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — қиылысады, 3 — айқас."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of lines B₁D₁ and AC. Answer with a number: 1 — parallel, 2 — intersecting, 3 — skew."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0119",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой CD и плоскости ADC₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында CD түзуі мен ADC₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line CD and plane ADC₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0120",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой A₁B₁ и плоскости BCB₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында A₁B₁ түзуі мен BCB₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line A₁B₁ and plane BCB₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0121",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой DB₁ и плоскости BB₁D₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында DB₁ түзуі мен BB₁D₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line DB₁ and plane BB₁D₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0122",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой DD₁ и плоскости BCB₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында DD₁ түзуі мен BCB₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line DD₁ and plane BCB₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0123",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой DA₁ и плоскости ACB₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында DA₁ түзуі мен ACB₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line DA₁ and plane ACB₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0124",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой AC и плоскости ADC₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында AC түзуі мен ADC₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line AC and plane ADC₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0125",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой BD₁ и плоскости ACB₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында BD₁ түзуі мен ACB₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line BD₁ and plane ACB₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0126",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой AD₁ и плоскости BCB₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында AD₁ түзуі мен BCB₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line AD₁ and plane BCB₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0127",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой A₁C₁ и плоскости ACB₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында A₁C₁ түзуі мен ACB₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line A₁C₁ and plane ACB₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0128",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой DA₁ и плоскости ADC₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында DA₁ түзуі мен ADC₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line DA₁ and plane ADC₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0129",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой CC₁ и плоскости BCB₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында CC₁ түзуі мен BCB₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line CC₁ and plane BCB₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0130",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой A₁C₁ и плоскости B₁C₁D₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында A₁C₁ түзуі мен B₁C₁D₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line A₁C₁ and plane B₁C₁D₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0131",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой CD и плоскости BCB₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында CD түзуі мен BCB₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line CD and plane BCB₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0132",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой DD₁ и плоскости ADC₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында DD₁ түзуі мен ADC₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line DD₁ and plane ADC₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0133",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой A₁D₁ и плоскости ADA₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында A₁D₁ түзуі мен ADA₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line A₁D₁ and plane ADA₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0134",
+  "grade": 10,
+  "topic": "relative_position",
+  "subtopic": "line_plane",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Прямая и плоскость",
+    "statement": "В кубе ABCDA₁B₁C₁D₁ определите взаимное расположение прямой BA₁ и плоскости ADC₁. Ответ запишите числом: 1 — параллельна, 2 — лежит в плоскости, 3 — перпендикулярна, 4 — пересекает под углом, не равным 90°."
+   },
+   "kk": {
+    "title": "Түзу мен жазықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубында BA₁ түзуі мен ADC₁ жазықтығының өзара орналасуын анықтаңыз. Жауапты санмен жазыңыз: 1 — параллель, 2 — жазықтықта жатыр, 3 — перпендикуляр, 4 — 90°-қа тең емес бұрышпен қиылысады."
+   },
+   "en": {
+    "title": "Line and plane",
+    "statement": "In cube ABCDA₁B₁C₁D₁ determine the relative position of line BA₁ and plane ADC₁. Answer with a number: 1 — parallel, 2 — lies in the plane, 3 — perpendicular, 4 — intersects at an angle other than 90°."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ }
+]

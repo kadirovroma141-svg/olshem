@@ -1,0 +1,129 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "Solution",
+ "type": "array",
+ "minItems": 1,
+ "items": {
+  "type": "object",
+  "required": [
+   "id",
+   "taskId",
+   "steps",
+   "finalAnswer",
+   "verification",
+   "validationStatus"
+  ],
+  "properties": {
+   "id": {
+    "type": "string",
+    "pattern": "^SOL-ST-\\d{4}$"
+   },
+   "taskId": {
+    "type": "string"
+   },
+   "edge": {
+    "type": "number",
+    "exclusiveMinimum": 0
+   },
+   "steps": {
+    "type": "array",
+    "minItems": 1,
+    "items": {
+     "type": "object",
+     "required": [
+      "id",
+      "type",
+      "ruleIds",
+      "text"
+     ],
+     "properties": {
+      "type": {
+       "enum": [
+        "analysis",
+        "construction",
+        "computation",
+        "check"
+       ]
+      },
+      "ruleIds": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "pattern": "^RULE-\\d{3}$"
+       }
+      },
+      "text": {
+       "type": "object",
+       "required": [
+        "kk",
+        "ru",
+        "en"
+       ]
+      }
+     }
+    }
+   },
+   "finalAnswer": {
+    "type": "object",
+    "required": [
+     "expression",
+     "value"
+    ],
+    "properties": {
+     "expression": {
+      "type": "string"
+     },
+     "value": {
+      "type": "number"
+     }
+    }
+   },
+   "verification": {
+    "type": "object",
+    "required": [
+     "op",
+     "args"
+    ],
+    "properties": {
+     "op": {
+      "enum": [
+       "distance",
+       "pointPlane",
+       "tetraVolume",
+       "sectionArea",
+       "solidVolume",
+       "solidSurface",
+       "solidEdge",
+       "solidTanEdgeBase",
+       "solidTanFaceBase",
+       "revVolume",
+       "revSurface",
+       "revLateral",
+       "revSectionRadius",
+       "coordDistance",
+       "coordCosAngle",
+       "coordTetraVolume",
+       "coordPointPlane",
+       "coordSkewDistance",
+       "relLines",
+       "relLinePlane"
+      ]
+     },
+     "args": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "validationStatus": {
+    "enum": [
+     "pending",
+     "auto_validated",
+     "validated"
+    ]
+   }
+  }
+ }
+}

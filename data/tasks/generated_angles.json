@@ -1,0 +1,218 @@
+[
+ {
+  "id": "ST-0039",
+  "grade": 11,
+  "topic": "angles",
+  "subtopic": "tan_edge",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Тангенс угла между боковым ребром и плоскостью основания: пирамиды (n=3)",
+    "statement": "Сторона основания правильной треугольной пирамиды равна 6, высота равна 4. Найдите тангенс угла между боковым ребром и плоскостью основания."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=3): бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін",
+    "statement": "Дұрыс үшбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 4. Бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін табыңыз."
+   },
+   "en": {
+    "title": "The tangent of the angle between a lateral edge and the base plane: pyramid (n=3)",
+    "statement": "The base side of a regular triangular pyramid is 6 and its height is 4. Find the tangent of the angle between a lateral edge and the base plane."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0040",
+  "grade": 11,
+  "topic": "angles",
+  "subtopic": "tan_face",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Тангенс угла между боковой гранью и плоскостью основания: пирамиды (n=3)",
+    "statement": "Сторона основания правильной треугольной пирамиды равна 6, высота равна 4. Найдите тангенс угла между боковой гранью и плоскостью основания."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=3): бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін",
+    "statement": "Дұрыс үшбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 4. Бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін табыңыз."
+   },
+   "en": {
+    "title": "The tangent of the angle between a lateral face and the base plane: pyramid (n=3)",
+    "statement": "The base side of a regular triangular pyramid is 6 and its height is 4. Find the tangent of the angle between a lateral face and the base plane."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0041",
+  "grade": 11,
+  "topic": "angles",
+  "subtopic": "tan_edge",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Тангенс угла между боковым ребром и плоскостью основания: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 4, высота равна 3. Найдите тангенс угла между боковым ребром и плоскостью основания."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 4, биіктігі — 3. Бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін табыңыз."
+   },
+   "en": {
+    "title": "The tangent of the angle between a lateral edge and the base plane: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 4 and its height is 3. Find the tangent of the angle between a lateral edge and the base plane."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0042",
+  "grade": 11,
+  "topic": "angles",
+  "subtopic": "tan_face",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Тангенс угла между боковой гранью и плоскостью основания: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 4, высота равна 3. Найдите тангенс угла между боковой гранью и плоскостью основания."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 4, биіктігі — 3. Бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін табыңыз."
+   },
+   "en": {
+    "title": "The tangent of the angle between a lateral face and the base plane: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 4 and its height is 3. Find the tangent of the angle between a lateral face and the base plane."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0043",
+  "grade": 11,
+  "topic": "angles",
+  "subtopic": "tan_edge",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Тангенс угла между боковым ребром и плоскостью основания: пирамиды (n=6)",
+    "statement": "Сторона основания правильной шестиугольной пирамиды равна 2, высота равна 5. Найдите тангенс угла между боковым ребром и плоскостью основания."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=6): бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін",
+    "statement": "Дұрыс алтыбұрышты пирамиданың табанының қабырғасы — 2, биіктігі — 5. Бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін табыңыз."
+   },
+   "en": {
+    "title": "The tangent of the angle between a lateral edge and the base plane: pyramid (n=6)",
+    "statement": "The base side of a regular hexagonal pyramid is 2 and its height is 5. Find the tangent of the angle between a lateral edge and the base plane."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0044",
+  "grade": 11,
+  "topic": "angles",
+  "subtopic": "tan_face",
+  "difficulty": 3,
+  "languages": {
+   "ru": {
+    "title": "Тангенс угла между боковой гранью и плоскостью основания: пирамиды (n=6)",
+    "statement": "Сторона основания правильной шестиугольной пирамиды равна 2, высота равна 5. Найдите тангенс угла между боковой гранью и плоскостью основания."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=6): бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін",
+    "statement": "Дұрыс алтыбұрышты пирамиданың табанының қабырғасы — 2, биіктігі — 5. Бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін табыңыз."
+   },
+   "en": {
+    "title": "The tangent of the angle between a lateral face and the base plane: pyramid (n=6)",
+    "statement": "The base side of a regular hexagonal pyramid is 2 and its height is 5. Find the tangent of the angle between a lateral face and the base plane."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0045",
+  "grade": 11,
+  "topic": "angles",
+  "subtopic": "tan_edge",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Тангенс угла между боковым ребром и плоскостью основания: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 6, высота равна 5. Найдите тангенс угла между боковым ребром и плоскостью основания."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 5. Бүйір қыры мен табан жазықтығы арасындағы бұрыштың тангенсін табыңыз."
+   },
+   "en": {
+    "title": "The tangent of the angle between a lateral edge and the base plane: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 6 and its height is 5. Find the tangent of the angle between a lateral edge and the base plane."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0046",
+  "grade": 11,
+  "topic": "angles",
+  "subtopic": "tan_face",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Тангенс угла между боковой гранью и плоскостью основания: пирамиды (n=4)",
+    "statement": "Сторона основания правильной четырёхугольной пирамиды равна 6, высота равна 5. Найдите тангенс угла между боковой гранью и плоскостью основания."
+   },
+   "kk": {
+    "title": "Пирамиданың (n=4): бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін",
+    "statement": "Дұрыс төртбұрышты пирамиданың табанының қабырғасы — 6, биіктігі — 5. Бүйір жағы мен табан жазықтығы арасындағы бұрыштың тангенсін табыңыз."
+   },
+   "en": {
+    "title": "The tangent of the angle between a lateral face and the base plane: pyramid (n=4)",
+    "statement": "The base side of a regular square pyramid is 6 and its height is 5. Find the tangent of the angle between a lateral face and the base plane."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ }
+]

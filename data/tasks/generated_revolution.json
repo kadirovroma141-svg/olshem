@@ -1,0 +1,812 @@
+[
+ {
+  "id": "ST-0047",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "cyl_vol",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём цилиндра",
+    "statement": "Радиус основания цилиндра равен 3, высота равна 5. Найдите объём цилиндра."
+   },
+   "kk": {
+    "title": "Цилиндр көлемі",
+    "statement": "Цилиндр табанының радиусы — 3, биіктігі — 5. Цилиндрдің көлемін табыңыз."
+   },
+   "en": {
+    "title": "Cylinder volume",
+    "statement": "The base radius of a cylinder is 3 and its height is 5. Find the volume of the cylinder."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0048",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "cyl_vol",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём цилиндра",
+    "statement": "Радиус основания цилиндра равен 2, высота равна 7. Найдите объём цилиндра."
+   },
+   "kk": {
+    "title": "Цилиндр көлемі",
+    "statement": "Цилиндр табанының радиусы — 2, биіктігі — 7. Цилиндрдің көлемін табыңыз."
+   },
+   "en": {
+    "title": "Cylinder volume",
+    "statement": "The base radius of a cylinder is 2 and its height is 7. Find the volume of the cylinder."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0049",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "cyl_vol",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём цилиндра",
+    "statement": "Радиус основания цилиндра равен 4, высота равна 6. Найдите объём цилиндра."
+   },
+   "kk": {
+    "title": "Цилиндр көлемі",
+    "statement": "Цилиндр табанының радиусы — 4, биіктігі — 6. Цилиндрдің көлемін табыңыз."
+   },
+   "en": {
+    "title": "Cylinder volume",
+    "statement": "The base radius of a cylinder is 4 and its height is 6. Find the volume of the cylinder."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0050",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cyl_total",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Поверхность цилиндра",
+    "statement": "Радиус основания цилиндра равен 3, высота равна 4. Найдите площадь полной поверхности цилиндра."
+   },
+   "kk": {
+    "title": "Цилиндр беті",
+    "statement": "Цилиндр табанының радиусы — 3, биіктігі — 4. Цилиндрдің толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cylinder surface",
+    "statement": "The base radius of a cylinder is 3 and its height is 4. Find the total surface area of the cylinder."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0051",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cyl_total",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Поверхность цилиндра",
+    "statement": "Радиус основания цилиндра равен 5, высота равна 2. Найдите площадь полной поверхности цилиндра."
+   },
+   "kk": {
+    "title": "Цилиндр беті",
+    "statement": "Цилиндр табанының радиусы — 5, биіктігі — 2. Цилиндрдің толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cylinder surface",
+    "statement": "The base radius of a cylinder is 5 and its height is 2. Find the total surface area of the cylinder."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0052",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cyl_total",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Поверхность цилиндра",
+    "statement": "Радиус основания цилиндра равен 2, высота равна 9. Найдите площадь полной поверхности цилиндра."
+   },
+   "kk": {
+    "title": "Цилиндр беті",
+    "statement": "Цилиндр табанының радиусы — 2, биіктігі — 9. Цилиндрдің толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cylinder surface",
+    "statement": "The base radius of a cylinder is 2 and its height is 9. Find the total surface area of the cylinder."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0053",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cyl_square",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Цилиндр с квадратным осевым сечением",
+    "statement": "Осевое сечение цилиндра — квадрат со стороной 4. Найдите площадь полной поверхности цилиндра."
+   },
+   "kk": {
+    "title": "Осьтік қимасы шаршы цилиндр",
+    "statement": "Цилиндрдің осьтік қимасы — қабырғасы 4 шаршы. Цилиндрдің толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cylinder with a square axial section",
+    "statement": "The axial section of a cylinder is a square with side 4. Find the total surface area of the cylinder."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0054",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cyl_square",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Цилиндр с квадратным осевым сечением",
+    "statement": "Осевое сечение цилиндра — квадрат со стороной 6. Найдите площадь полной поверхности цилиндра."
+   },
+   "kk": {
+    "title": "Осьтік қимасы шаршы цилиндр",
+    "statement": "Цилиндрдің осьтік қимасы — қабырғасы 6 шаршы. Цилиндрдің толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cylinder with a square axial section",
+    "statement": "The axial section of a cylinder is a square with side 6. Find the total surface area of the cylinder."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0055",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cyl_square",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Цилиндр с квадратным осевым сечением",
+    "statement": "Осевое сечение цилиндра — квадрат со стороной 10. Найдите площадь полной поверхности цилиндра."
+   },
+   "kk": {
+    "title": "Осьтік қимасы шаршы цилиндр",
+    "statement": "Цилиндрдің осьтік қимасы — қабырғасы 10 шаршы. Цилиндрдің толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cylinder with a square axial section",
+    "statement": "The axial section of a cylinder is a square with side 10. Find the total surface area of the cylinder."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0056",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "cone_vol",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём конуса",
+    "statement": "Радиус основания конуса равен 3, высота равна 4. Найдите объём конуса."
+   },
+   "kk": {
+    "title": "Конус көлемі",
+    "statement": "Конус табанының радиусы — 3, биіктігі — 4. Конустың көлемін табыңыз."
+   },
+   "en": {
+    "title": "Cone volume",
+    "statement": "The base radius of a cone is 3 and its height is 4. Find the volume of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0057",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "cone_vol",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём конуса",
+    "statement": "Радиус основания конуса равен 6, высота равна 8. Найдите объём конуса."
+   },
+   "kk": {
+    "title": "Конус көлемі",
+    "statement": "Конус табанының радиусы — 6, биіктігі — 8. Конустың көлемін табыңыз."
+   },
+   "en": {
+    "title": "Cone volume",
+    "statement": "The base radius of a cone is 6 and its height is 8. Find the volume of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0058",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "cone_vol",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём конуса",
+    "statement": "Радиус основания конуса равен 5, высота равна 12. Найдите объём конуса."
+   },
+   "kk": {
+    "title": "Конус көлемі",
+    "statement": "Конус табанының радиусы — 5, биіктігі — 12. Конустың көлемін табыңыз."
+   },
+   "en": {
+    "title": "Cone volume",
+    "statement": "The base radius of a cone is 5 and its height is 12. Find the volume of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0059",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cone_lat",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Боковая поверхность конуса",
+    "statement": "Радиус основания конуса равен 3, высота равна 4. Найдите площадь боковой поверхности конуса."
+   },
+   "kk": {
+    "title": "Конустың бүйір беті",
+    "statement": "Конус табанының радиусы — 3, биіктігі — 4. Конустың бүйір бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cone lateral surface",
+    "statement": "The base radius of a cone is 3 and its height is 4. Find the lateral surface area of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0060",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cone_lat",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Боковая поверхность конуса",
+    "statement": "Радиус основания конуса равен 5, высота равна 12. Найдите площадь боковой поверхности конуса."
+   },
+   "kk": {
+    "title": "Конустың бүйір беті",
+    "statement": "Конус табанының радиусы — 5, биіктігі — 12. Конустың бүйір бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cone lateral surface",
+    "statement": "The base radius of a cone is 5 and its height is 12. Find the lateral surface area of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0061",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cone_lat",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Боковая поверхность конуса",
+    "statement": "Радиус основания конуса равен 8, высота равна 6. Найдите площадь боковой поверхности конуса."
+   },
+   "kk": {
+    "title": "Конустың бүйір беті",
+    "statement": "Конус табанының радиусы — 8, биіктігі — 6. Конустың бүйір бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cone lateral surface",
+    "statement": "The base radius of a cone is 8 and its height is 6. Find the lateral surface area of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0062",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cone_total",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Поверхность конуса",
+    "statement": "Радиус основания конуса равен 3, высота равна 4. Найдите площадь полной поверхности конуса."
+   },
+   "kk": {
+    "title": "Конус беті",
+    "statement": "Конус табанының радиусы — 3, биіктігі — 4. Конустың толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cone surface",
+    "statement": "The base radius of a cone is 3 and its height is 4. Find the total surface area of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0063",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cone_total",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Поверхность конуса",
+    "statement": "Радиус основания конуса равен 6, высота равна 8. Найдите площадь полной поверхности конуса."
+   },
+   "kk": {
+    "title": "Конус беті",
+    "statement": "Конус табанының радиусы — 6, биіктігі — 8. Конустың толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cone surface",
+    "statement": "The base radius of a cone is 6 and its height is 8. Find the total surface area of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0064",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "cone_total",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Поверхность конуса",
+    "statement": "Радиус основания конуса равен 5, высота равна 12. Найдите площадь полной поверхности конуса."
+   },
+   "kk": {
+    "title": "Конус беті",
+    "statement": "Конус табанының радиусы — 5, биіктігі — 12. Конустың толық бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Cone surface",
+    "statement": "The base radius of a cone is 5 and its height is 12. Find the total surface area of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0065",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "cone_lh",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Конус по образующей и высоте",
+    "statement": "Образующая конуса равна 5, высота равна 4. Найдите объём конуса."
+   },
+   "kk": {
+    "title": "Образующая мен биіктік бойынша конус",
+    "statement": "Конустың жасаушысы — 5, биіктігі — 4. Конустың көлемін табыңыз."
+   },
+   "en": {
+    "title": "Cone from slant height and height",
+    "statement": "The slant height of a cone is 5 and its height is 4. Find the volume of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0066",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "cone_lh",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Конус по образующей и высоте",
+    "statement": "Образующая конуса равна 13, высота равна 12. Найдите объём конуса."
+   },
+   "kk": {
+    "title": "Образующая мен биіктік бойынша конус",
+    "statement": "Конустың жасаушысы — 13, биіктігі — 12. Конустың көлемін табыңыз."
+   },
+   "en": {
+    "title": "Cone from slant height and height",
+    "statement": "The slant height of a cone is 13 and its height is 12. Find the volume of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0067",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "cone_lh",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Конус по образующей и высоте",
+    "statement": "Образующая конуса равна 10, высота равна 8. Найдите объём конуса."
+   },
+   "kk": {
+    "title": "Образующая мен биіктік бойынша конус",
+    "statement": "Конустың жасаушысы — 10, биіктігі — 8. Конустың көлемін табыңыз."
+   },
+   "en": {
+    "title": "Cone from slant height and height",
+    "statement": "The slant height of a cone is 10 and its height is 8. Find the volume of the cone."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0068",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "sph_vol",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём шара",
+    "statement": "Радиус шара равен 3. Найдите объём шара."
+   },
+   "kk": {
+    "title": "Шар көлемі",
+    "statement": "Шардың радиусы — 3. Шардың көлемін табыңыз."
+   },
+   "en": {
+    "title": "Sphere volume",
+    "statement": "The radius of a ball is 3. Find the volume of the ball."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0069",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "sph_vol",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём шара",
+    "statement": "Радиус шара равен 6. Найдите объём шара."
+   },
+   "kk": {
+    "title": "Шар көлемі",
+    "statement": "Шардың радиусы — 6. Шардың көлемін табыңыз."
+   },
+   "en": {
+    "title": "Sphere volume",
+    "statement": "The radius of a ball is 6. Find the volume of the ball."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0070",
+  "grade": 11,
+  "topic": "volumes",
+  "subtopic": "sph_vol",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Объём шара",
+    "statement": "Радиус шара равен 5. Найдите объём шара."
+   },
+   "kk": {
+    "title": "Шар көлемі",
+    "statement": "Шардың радиусы — 5. Шардың көлемін табыңыз."
+   },
+   "en": {
+    "title": "Sphere volume",
+    "statement": "The radius of a ball is 5. Find the volume of the ball."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0071",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "sph_surf",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Поверхность шара",
+    "statement": "Радиус шара равен 2. Найдите площадь поверхности шара."
+   },
+   "kk": {
+    "title": "Шар беті",
+    "statement": "Шардың радиусы — 2. Шар бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Sphere surface",
+    "statement": "The radius of a ball is 2. Find the surface area of the sphere."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0072",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "sph_surf",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Поверхность шара",
+    "statement": "Радиус шара равен 7. Найдите площадь поверхности шара."
+   },
+   "kk": {
+    "title": "Шар беті",
+    "statement": "Шардың радиусы — 7. Шар бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Sphere surface",
+    "statement": "The radius of a ball is 7. Find the surface area of the sphere."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0073",
+  "grade": 11,
+  "topic": "surface_areas",
+  "subtopic": "sph_surf",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Поверхность шара",
+    "statement": "Радиус шара равен 10. Найдите площадь поверхности шара."
+   },
+   "kk": {
+    "title": "Шар беті",
+    "statement": "Шардың радиусы — 10. Шар бетінің ауданын табыңыз."
+   },
+   "en": {
+    "title": "Sphere surface",
+    "statement": "The radius of a ball is 10. Find the surface area of the sphere."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0074",
+  "grade": 11,
+  "topic": "distances",
+  "subtopic": "sph_sec",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Сечение шара",
+    "statement": "Шар радиуса 5 пересечён плоскостью на расстоянии 3 от центра. Найдите радиус круга сечения."
+   },
+   "kk": {
+    "title": "Шардың қимасы",
+    "statement": "Радиусы 5 шарды центрден 3 қашықтықтағы жазықтық қиды. Қима шеңберінің радиусын табыңыз."
+   },
+   "en": {
+    "title": "Sphere section",
+    "statement": "A ball of radius 5 is cut by a plane at distance 3 from its center. Find the radius of the section circle."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0075",
+  "grade": 11,
+  "topic": "distances",
+  "subtopic": "sph_sec",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Сечение шара",
+    "statement": "Шар радиуса 13 пересечён плоскостью на расстоянии 5 от центра. Найдите радиус круга сечения."
+   },
+   "kk": {
+    "title": "Шардың қимасы",
+    "statement": "Радиусы 13 шарды центрден 5 қашықтықтағы жазықтық қиды. Қима шеңберінің радиусын табыңыз."
+   },
+   "en": {
+    "title": "Sphere section",
+    "statement": "A ball of radius 13 is cut by a plane at distance 5 from its center. Find the radius of the section circle."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0076",
+  "grade": 11,
+  "topic": "distances",
+  "subtopic": "sph_sec",
+  "difficulty": 2,
+  "languages": {
+   "ru": {
+    "title": "Сечение шара",
+    "statement": "Шар радиуса 10 пересечён плоскостью на расстоянии 6 от центра. Найдите радиус круга сечения."
+   },
+   "kk": {
+    "title": "Шардың қимасы",
+    "statement": "Радиусы 10 шарды центрден 6 қашықтықтағы жазықтық қиды. Қима шеңберінің радиусын табыңыз."
+   },
+   "en": {
+    "title": "Sphere section",
+    "statement": "A ball of radius 10 is cut by a plane at distance 6 from its center. Find the radius of the section circle."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ }
+]

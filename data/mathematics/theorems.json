@@ -1,0 +1,630 @@
+[
+ {
+  "id": "RULE-001",
+  "type": "axiom",
+  "languages": {
+   "kk": {
+    "title": "Үш нүкте арқылы жазықтық",
+    "statement": "Бір түзудің бойында жатпайтын үш нүкте арқылы жазықтық өтеді және ол біреу ғана."
+   },
+   "ru": {
+    "title": "Плоскость через три точки",
+    "statement": "Через три точки, не лежащие на одной прямой, проходит плоскость, и притом только одна."
+   },
+   "en": {
+    "title": "Plane through three points",
+    "statement": "Through three points not on one line there passes exactly one plane."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "cross_sections",
+   "distances"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-002",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Тікбұрышты параллелепипедтің диагоналі",
+    "statement": "Өлшемдері a, b, c тікбұрышты параллелепипедтің диагоналінің квадраты d² = a² + b² + c². Қыры a куб үшін d = a√3."
+   },
+   "ru": {
+    "title": "Диагональ прямоугольного параллелепипеда",
+    "statement": "Квадрат диагонали прямоугольного параллелепипеда с измерениями a, b, c равен d² = a² + b² + c². Для куба с ребром a: d = a√3."
+   },
+   "en": {
+    "title": "Diagonal of a rectangular box",
+    "statement": "For a box with dimensions a, b, c the square of the diagonal is d² = a² + b² + c². For a cube of edge a: d = a√3."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "distances"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-003",
+  "type": "definition",
+  "languages": {
+   "kk": {
+    "title": "Нүктеден жазықтыққа дейінгі қашықтық",
+    "statement": "Нүктеден жазықтыққа дейінгі қашықтық — нүктеден жазықтыққа түсірілген перпендикулярдың ұзындығы."
+   },
+   "ru": {
+    "title": "Расстояние от точки до плоскости",
+    "statement": "Расстояние от точки до плоскости — длина перпендикуляра, опущенного из точки на плоскость."
+   },
+   "en": {
+    "title": "Distance from a point to a plane",
+    "statement": "The distance from a point to a plane is the length of the perpendicular dropped from the point to the plane."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "distances"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-004",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Пирамида көлемі",
+    "statement": "Пирамиданың көлемі V = (1/3)·S·h, мұндағы S — табан ауданы, h — биіктік."
+   },
+   "ru": {
+    "title": "Объём пирамиды",
+    "statement": "Объём пирамиды V = (1/3)·S·h, где S — площадь основания, h — высота."
+   },
+   "en": {
+    "title": "Volume of a pyramid",
+    "statement": "The volume of a pyramid is V = (1/3)·S·h, where S is the base area and h is the height."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [
+   "RULE-003"
+  ],
+  "relatedTaskTypes": [
+   "volumes",
+   "distances"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-005",
+  "type": "theorem",
+  "languages": {
+   "kk": {
+    "title": "Түзу мен жазықтықтың перпендикулярлық белгісі",
+    "statement": "Егер түзу жазықтықта жатқан екі қиылысатын түзудің әрқайсысына перпендикуляр болса, ол жазықтыққа перпендикуляр."
+   },
+   "ru": {
+    "title": "Признак перпендикулярности прямой и плоскости",
+    "statement": "Если прямая перпендикулярна двум пересекающимся прямым плоскости, то она перпендикулярна этой плоскости."
+   },
+   "en": {
+    "title": "Line–plane perpendicularity criterion",
+    "statement": "If a line is perpendicular to two intersecting lines of a plane, it is perpendicular to that plane."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [
+   "RULE-003"
+  ],
+  "relatedTaskTypes": [
+   "distances",
+   "angles"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-006",
+  "type": "method",
+  "languages": {
+   "kk": {
+    "title": "Қима салу әдісі",
+    "statement": "Көпжақтың қимасы — қиюшы жазықтықтың көпжақ жақтарымен қиылысу кесінділерінен құралған көпбұрыш."
+   },
+   "ru": {
+    "title": "Построение сечения многогранника",
+    "statement": "Сечение многогранника — многоугольник, сторонами которого являются отрезки пересечения секущей плоскости с гранями."
+   },
+   "en": {
+    "title": "Cross-section of a polyhedron",
+    "statement": "A cross-section is the polygon whose sides are the segments where the cutting plane meets the faces."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [
+   "RULE-001"
+  ],
+  "relatedTaskTypes": [
+   "cross_sections"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-007",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Призма көлемі",
+    "statement": "Призманың көлемі V = S·h, мұндағы S — табан ауданы, h — биіктік."
+   },
+   "ru": {
+    "title": "Объём призмы",
+    "statement": "Объём призмы V = S·h, где S — площадь основания, h — высота."
+   },
+   "en": {
+    "title": "Volume of a prism",
+    "statement": "The volume of a prism is V = S·h, where S is the base area and h is the height."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "volumes"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-008",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Дұрыс көпбұрыштың элементтері",
+    "statement": "Қабырғасы a дұрыс үшбұрыштың ауданы a²√3/4, шаршының ауданы a², дұрыс алтыбұрыштың ауданы 3a²√3/2."
+   },
+   "ru": {
+    "title": "Элементы правильного многоугольника",
+    "statement": "Площадь правильного треугольника со стороной a равна a²√3/4, квадрата — a², правильного шестиугольника — 3a²√3/2."
+   },
+   "en": {
+    "title": "Regular polygon elements",
+    "statement": "For side a the area of a regular triangle is a²√3/4, of a square a², of a regular hexagon 3a²√3/2."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "volumes",
+   "surface_areas",
+   "distances"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-009",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Толық беттің ауданы",
+    "statement": "Көпжақтың толық бетінің ауданы — барлық жақтары аудандарының қосындысы."
+   },
+   "ru": {
+    "title": "Площадь полной поверхности",
+    "statement": "Площадь полной поверхности многогранника равна сумме площадей всех его граней."
+   },
+   "en": {
+    "title": "Total surface area",
+    "statement": "The total surface area of a polyhedron is the sum of the areas of all its faces."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "surface_areas"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-010",
+  "type": "definition",
+  "languages": {
+   "kk": {
+    "title": "Түзу мен жазықтық арасындағы бұрыш",
+    "statement": "Түзу мен жазықтық арасындағы бұрыш — түзу мен оның жазықтыққа проекциясы арасындағы бұрыш."
+   },
+   "ru": {
+    "title": "Угол между прямой и плоскостью",
+    "statement": "Угол между прямой и плоскостью — угол между этой прямой и её проекцией на плоскость."
+   },
+   "en": {
+    "title": "Angle between a line and a plane",
+    "statement": "The angle between a line and a plane is the angle between the line and its projection onto the plane."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "angles"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-011",
+  "type": "definition",
+  "languages": {
+   "kk": {
+    "title": "Екі жазықтық арасындағы бұрыш",
+    "statement": "Екіжақты бұрыштың өлшемі — оның сызықтық бұрышының өлшемі: қырға перпендикуляр түзулер арасындағы бұрыш."
+   },
+   "ru": {
+    "title": "Угол между плоскостями",
+    "statement": "Мера двугранного угла равна мере его линейного угла — угла между перпендикулярами к ребру, проведёнными в гранях."
+   },
+   "en": {
+    "title": "Angle between planes",
+    "statement": "The measure of a dihedral angle equals that of its linear angle: the angle between perpendiculars to the edge drawn in each face."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "angles"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-012",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Цилиндр",
+    "statement": "Цилиндр көлемі V = πr²h, бүйір беті 2πrh, толық беті 2πr(r + h)."
+   },
+   "ru": {
+    "title": "Цилиндр",
+    "statement": "Объём цилиндра V = πr²h, площадь боковой поверхности 2πrh, полной — 2πr(r + h)."
+   },
+   "en": {
+    "title": "Cylinder",
+    "statement": "Cylinder: volume V = πr²h, lateral area 2πrh, total area 2πr(r + h)."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "volumes",
+   "surface_areas"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-013",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Конус",
+    "statement": "Конус көлемі V = πr²h/3, бүйір беті πrl, толық беті πr(l + r), мұнда l = √(r² + h²)."
+   },
+   "ru": {
+    "title": "Конус",
+    "statement": "Объём конуса V = πr²h/3, площадь боковой поверхности πrl, полной — πr(l + r), где l = √(r² + h²)."
+   },
+   "en": {
+    "title": "Cone",
+    "statement": "Cone: volume V = πr²h/3, lateral area πrl, total area πr(l + r), where l = √(r² + h²)."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "volumes",
+   "surface_areas"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-014",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Шар",
+    "statement": "Шар көлемі V = 4πr³/3, бет ауданы 4πr². Центрден d қашықтықтағы жазықтық қимасының радиусы ρ = √(r² − d²)."
+   },
+   "ru": {
+    "title": "Шар",
+    "statement": "Объём шара V = 4πr³/3, площадь поверхности 4πr². Радиус сечения плоскостью на расстоянии d от центра ρ = √(r² − d²)."
+   },
+   "en": {
+    "title": "Sphere",
+    "statement": "Ball: volume V = 4πr³/3, surface area 4πr². A plane at distance d from the center cuts a circle of radius ρ = √(r² − d²)."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "volumes",
+   "surface_areas",
+   "distances"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-015",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Екі нүкте арасындағы қашықтық",
+    "statement": "A(x₁; y₁; z₁) және B(x₂; y₂; z₂) нүктелері арасындағы қашықтық √((x₂−x₁)² + (y₂−y₁)² + (z₂−z₁)²)."
+   },
+   "ru": {
+    "title": "Расстояние между точками",
+    "statement": "Расстояние между A(x₁; y₁; z₁) и B(x₂; y₂; z₂) равно √((x₂−x₁)² + (y₂−y₁)² + (z₂−z₁)²)."
+   },
+   "en": {
+    "title": "Distance between points",
+    "statement": "The distance between A(x₁, y₁, z₁) and B(x₂, y₂, z₂) is √((x₂−x₁)² + (y₂−y₁)² + (z₂−z₁)²)."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "coordinates"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-016",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Векторлар арасындағы бұрыш",
+    "statement": "Нөлдік емес a және b векторлары арасындағы бұрыштың косинусы cos φ = (a·b)/(|a|·|b|)."
+   },
+   "ru": {
+    "title": "Угол между векторами",
+    "statement": "Косинус угла между ненулевыми векторами a и b равен cos φ = (a·b)/(|a|·|b|)."
+   },
+   "en": {
+    "title": "Angle between vectors",
+    "statement": "The cosine of the angle between nonzero vectors a and b is cos φ = (a·b)/(|a|·|b|)."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "coordinates",
+   "angles"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-017",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Тетраэдр көлемі",
+    "statement": "Тетраэдр көлемі векторлардың аралас көбейтіндісінің модулінің алтыдан біріне тең: V = |(a, b, c)|/6."
+   },
+   "ru": {
+    "title": "Объём тетраэдра",
+    "statement": "Объём тетраэдра равен одной шестой модуля смешанного произведения векторов рёбер: V = |(a, b, c)|/6."
+   },
+   "en": {
+    "title": "Tetrahedron volume",
+    "statement": "The volume of a tetrahedron is one sixth of the absolute value of the scalar triple product of its edge vectors: V = |(a, b, c)|/6."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "coordinates",
+   "volumes"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-018",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Нүктеден жазықтыққа дейінгі қашықтық",
+    "statement": "Жазықтықтың нормалі n = AB × AC болса, P нүктесінен жазықтыққа дейінгі қашықтық |n·AP|/|n|."
+   },
+   "ru": {
+    "title": "Расстояние от точки до плоскости",
+    "statement": "Если нормаль плоскости n = AB × AC, то расстояние от точки P до плоскости равно |n·AP|/|n|."
+   },
+   "en": {
+    "title": "Distance from a point to a plane",
+    "statement": "If the plane normal is n = AB × AC, the distance from P to the plane is |n·AP|/|n|."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "coordinates",
+   "distances"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-019",
+  "type": "formula",
+  "languages": {
+   "kk": {
+    "title": "Айқас түзулер арасындағы қашықтық",
+    "statement": "AB және CD айқас түзулері арасындағы қашықтық |n·AC|/|n|, мұнда n = AB × CD."
+   },
+   "ru": {
+    "title": "Расстояние между скрещивающимися прямыми",
+    "statement": "Расстояние между скрещивающимися прямыми AB и CD равно |n·AC|/|n|, где n = AB × CD."
+   },
+   "en": {
+    "title": "Distance between skew lines",
+    "statement": "The distance between skew lines AB and CD is |n·AC|/|n|, where n = AB × CD."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "coordinates",
+   "distances"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-020",
+  "type": "theorem",
+  "languages": {
+   "kk": {
+    "title": "Екі түзудің өзара орналасуы",
+    "statement": "Кеңістікте екі түзу не қиылысады, не параллель, не айқас болады. Бір жазықтықта жатпайтын түзулер айқас деп аталады. Түзулердің бағыттаушылары коллинеар болса, олар параллель."
+   },
+   "ru": {
+    "title": "Взаимное расположение двух прямых",
+    "statement": "В пространстве две прямые пересекаются, параллельны или скрещиваются. Скрещивающиеся прямые не лежат в одной плоскости. Прямые параллельны, если их направляющие векторы коллинеарны."
+   },
+   "en": {
+    "title": "Relative position of two lines",
+    "statement": "In space two lines intersect, are parallel, or are skew. Skew lines do not lie in one plane. Lines are parallel if their direction vectors are collinear."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "relative_position"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "RULE-021",
+  "type": "theorem",
+  "languages": {
+   "kk": {
+    "title": "Түзу мен жазықтықтың өзара орналасуы",
+    "statement": "Түзу жазықтықта жатады, жазықтыққа параллель немесе оны қиып өтеді. Түзудің бағыттаушысы жазықтық нормалына перпендикуляр болса, түзу жазықтықта жатады немесе параллель; нормальға параллель болса — жазықтыққа перпендикуляр."
+   },
+   "ru": {
+    "title": "Взаимное расположение прямой и плоскости",
+    "statement": "Прямая лежит в плоскости, параллельна ей или пересекает её. Если направляющий вектор прямой перпендикулярен нормали плоскости, прямая лежит в плоскости или параллельна ей; если параллелен нормали — прямая перпендикулярна плоскости."
+   },
+   "en": {
+    "title": "Relative position of a line and a plane",
+    "statement": "A line lies in a plane, is parallel to it, or crosses it. If the direction of the line is orthogonal to the plane normal, the line lies in the plane or is parallel to it; if it is parallel to the normal, the line is perpendicular to the plane."
+   }
+  },
+  "preconditions": [],
+  "dependencies": [],
+  "relatedTaskTypes": [
+   "relative_position"
+  ],
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ }
+]

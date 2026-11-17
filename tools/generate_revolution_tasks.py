@@ -1,0 +1,55 @@
+"""Генерация задач на тела вращения. Ответ записывается формулой и независимо пересчитывается ядром (src/core/revolution.ts)."""
+import json, math
+LG=('ru','kk','en')
+def val(e): return eval(e.replace('^','**').replace('sqrt','math.sqrt').replace('pi','math.pi'),{'math':math})
+CONS={'cylinder':("Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.","Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.","Construct the axial section of the cylinder (a rectangle) and mark r and h."),
+'cone':("Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.","Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.","Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."),
+'sphere':("Отметьте центр шара и радиус.","Шардың центрін және радиусын белгілеңіз.","Mark the center and the radius of the sphere."),
+'sec':("Проведите радиус в точку окружности сечения: получится прямоугольный треугольник с катетами d и ρ и гипотенузой r.","Қима шеңберінің нүктесіне радиус жүргізіңіз: катеттері d және ρ, гипотенузасы r тік бұрышты үшбұрыш шығады.","Draw a radius to a point of the section circle: a right triangle with legs d and ρ and hypotenuse r.")}
+DEF=("Проверка: результат положителен и согласуется с размерами фигуры.","Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.","Check: the result is positive and consistent with the solid's dimensions.")
+# fam: (kind, op, rules, topic, formula, texts{lang:(title, statement_fmt)}, check, cons)
+F={
+'cyl_vol':('cylinder','revVolume',["RULE-012"],'volumes',"V = πr²h",{'ru':("Объём цилиндра","Радиус основания цилиндра равен {r}, высота равна {h}. Найдите объём цилиндра."),'kk':("Цилиндр көлемі","Цилиндр табанының радиусы — {r}, биіктігі — {h}. Цилиндрдің көлемін табыңыз."),'en':("Cylinder volume","The base radius of a cylinder is {r} and its height is {h}. Find the volume of the cylinder.")},DEF,'cylinder'),
+'cyl_total':('cylinder','revSurface',["RULE-012"],'surface_areas',"S = 2πr(r + h)",{'ru':("Поверхность цилиндра","Радиус основания цилиндра равен {r}, высота равна {h}. Найдите площадь полной поверхности цилиндра."),'kk':("Цилиндр беті","Цилиндр табанының радиусы — {r}, биіктігі — {h}. Цилиндрдің толық бетінің ауданын табыңыз."),'en':("Cylinder surface","The base radius of a cylinder is {r} and its height is {h}. Find the total surface area of the cylinder.")},DEF,'cylinder'),
+'cyl_square':('cylinder','revSurface',["RULE-012"],'surface_areas',"h = 2r = s, S = 2πr(r + h)",{'ru':("Цилиндр с квадратным осевым сечением","Осевое сечение цилиндра — квадрат со стороной {s}. Найдите площадь полной поверхности цилиндра."),'kk':("Осьтік қимасы шаршы цилиндр","Цилиндрдің осьтік қимасы — қабырғасы {s} шаршы. Цилиндрдің толық бетінің ауданын табыңыз."),'en':("Cylinder with a square axial section","The axial section of a cylinder is a square with side {s}. Find the total surface area of the cylinder.")},("Проверка: высота цилиндра равна диаметру основания.","Тексеру: цилиндр биіктігі табан диаметріне тең.","Check: the height equals the base diameter."),'cylinder'),
+'cone_vol':('cone','revVolume',["RULE-013"],'volumes',"V = πr²h/3",{'ru':("Объём конуса","Радиус основания конуса равен {r}, высота равна {h}. Найдите объём конуса."),'kk':("Конус көлемі","Конус табанының радиусы — {r}, биіктігі — {h}. Конустың көлемін табыңыз."),'en':("Cone volume","The base radius of a cone is {r} and its height is {h}. Find the volume of the cone.")},("Проверка: объём втрое меньше объёма цилиндра с тем же основанием и высотой.","Тексеру: көлем сол табаны мен биіктігі бар цилиндр көлемінен үш есе кіші.","Check: the volume is one third of the cylinder with the same base and height."),'cone'),
+'cone_lat':('cone','revLateral',["RULE-013","RULE-002"],'surface_areas',"S = πrl, l = √(r² + h²)",{'ru':("Боковая поверхность конуса","Радиус основания конуса равен {r}, высота равна {h}. Найдите площадь боковой поверхности конуса."),'kk':("Конустың бүйір беті","Конус табанының радиусы — {r}, биіктігі — {h}. Конустың бүйір бетінің ауданын табыңыз."),'en':("Cone lateral surface","The base radius of a cone is {r} and its height is {h}. Find the lateral surface area of the cone.")},DEF,'cone'),
+'cone_total':('cone','revSurface',["RULE-013","RULE-002"],'surface_areas',"S = πr(l + r), l = √(r² + h²)",{'ru':("Поверхность конуса","Радиус основания конуса равен {r}, высота равна {h}. Найдите площадь полной поверхности конуса."),'kk':("Конус беті","Конус табанының радиусы — {r}, биіктігі — {h}. Конустың толық бетінің ауданын табыңыз."),'en':("Cone surface","The base radius of a cone is {r} and its height is {h}. Find the total surface area of the cone.")},DEF,'cone'),
+'cone_lh':('cone','revVolume',["RULE-013","RULE-002"],'volumes',"r = √(l² − h²), V = πr²h/3",{'ru':("Конус по образующей и высоте","Образующая конуса равна {l}, высота равна {h}. Найдите объём конуса."),'kk':("Образующая мен биіктік бойынша конус","Конустың жасаушысы — {l}, биіктігі — {h}. Конустың көлемін табыңыз."),'en':("Cone from slant height and height","The slant height of a cone is {l} and its height is {h}. Find the volume of the cone.")},("Проверка: образующая длиннее высоты, радиус получился положительным.","Тексеру: жасаушы биіктіктен ұзын, радиус оң шықты.","Check: the slant height exceeds the height and the radius is positive."),'cone'),
+'sph_vol':('sphere','revVolume',["RULE-014"],'volumes',"V = 4πr³/3",{'ru':("Объём шара","Радиус шара равен {r}. Найдите объём шара."),'kk':("Шар көлемі","Шардың радиусы — {r}. Шардың көлемін табыңыз."),'en':("Sphere volume","The radius of a ball is {r}. Find the volume of the ball.")},DEF,'sphere'),
+'sph_surf':('sphere','revSurface',["RULE-014"],'surface_areas',"S = 4πr²",{'ru':("Поверхность шара","Радиус шара равен {r}. Найдите площадь поверхности шара."),'kk':("Шар беті","Шардың радиусы — {r}. Шар бетінің ауданын табыңыз."),'en':("Sphere surface","The radius of a ball is {r}. Find the surface area of the sphere.")},DEF,'sphere'),
+'sph_sec':('sphere','revSectionRadius',["RULE-014","RULE-002"],'distances',"ρ = √(r² − d²)",{'ru':("Сечение шара","Шар радиуса {r} пересечён плоскостью на расстоянии {d} от центра. Найдите радиус круга сечения."),'kk':("Шардың қимасы","Радиусы {r} шарды центрден {d} қашықтықтағы жазықтық қиды. Қима шеңберінің радиусын табыңыз."),'en':("Sphere section","A ball of radius {r} is cut by a plane at distance {d} from its center. Find the radius of the section circle.")},("Проверка: радиус сечения меньше радиуса шара.","Тексеру: қима радиусы шар радиусынан кіші.","Check: the section radius is smaller than the ball radius."),'sec'),
+}
+V={'cyl_vol':[(3,5),(2,7),(4,6)],'cyl_total':[(3,4),(5,2),(2,9)],'cyl_square':[(4,),(6,),(10,)],'cone_vol':[(3,4),(6,8),(5,12)],'cone_lat':[(3,4),(5,12),(8,6)],'cone_total':[(3,4),(6,8),(5,12)],'cone_lh':[(5,4),(13,12),(10,8)],'sph_vol':[(3,),(6,),(5,)],'sph_surf':[(2,),(7,),(10,)],'sph_sec':[(5,3),(13,5),(10,6)]}
+def spec(f,a):
+    if f=='cyl_vol': r,h=a; return dict(r=r,h=h),f"pi*{r}^2*{h}",dict(kind='cylinder',r=r,h=h)
+    if f=='cyl_total': r,h=a; return dict(r=r,h=h),f"2*pi*{r}*({r}+{h})",dict(kind='cylinder',r=r,h=h)
+    if f=='cyl_square': s,=a; return dict(s=s),f"2*pi*({s}/2)*(({s}/2)+{s})",dict(kind='cylinder',r=s/2,h=s)
+    if f=='cone_vol': r,h=a; return dict(r=r,h=h),f"pi*{r}^2*{h}/3",dict(kind='cone',r=r,h=h)
+    if f=='cone_lat': r,h=a; return dict(r=r,h=h),f"pi*{r}*sqrt({r}^2+{h}^2)",dict(kind='cone',r=r,h=h)
+    if f=='cone_total': r,h=a; return dict(r=r,h=h),f"pi*{r}*(sqrt({r}^2+{h}^2)+{r})",dict(kind='cone',r=r,h=h)
+    if f=='cone_lh': l,h=a; r=int(math.isqrt(l*l-h*h)); assert r*r+h*h==l*l; return dict(l=l,h=h),f"pi*(sqrt({l}^2-{h}^2))^2*{h}/3",dict(kind='cone',r=r,h=h)
+    if f=='sph_vol': r,=a; return dict(r=r),f"4*pi*{r}^3/3",dict(kind='sphere',r=r)
+    if f=='sph_surf': r,=a; return dict(r=r),f"4*pi*{r}^2",dict(kind='sphere',r=r)
+    r,d=a; return dict(r=r,d=d),f"sqrt({r}^2-{d}^2)",dict(kind='sphere',r=r,d=d)
+tasks=[];sols=[];k=47
+for f,(kind,op,rules,topic,form,txt,chk,cons) in F.items():
+    for a in V[f]:
+        pr,expr,rev=spec(f,a); tid=f"ST-{k:04d}"; k+=1; v=val(expr)
+        langs={l:{"title":txt[l][0],"statement":txt[l][1].format(**pr)} for l in LG}
+        tasks.append({"id":tid,"grade":11,"topic":topic,"subtopic":f,"difficulty":2,"languages":langs,"source":{"type":"original","citation":None,"rightsStatus":"original"},"validationStatus":"pending"})
+        qd=lambda l:txt[l][1].format(**pr)
+        steps=[("analysis",{l:{'ru':"Дано: ",'kk':"Берілгені: ",'en':"Given: "}[l]+", ".join(f"{x} = {y}" for x,y in pr.items())+"." for l in LG}),("construction",dict(zip(LG,CONS[cons]))),
+         ("computation",{l:f"{form}; {expr} ≈ {v:.4f}." for l in LG}),("check",dict(zip(LG,chk)))]
+        S=[{"id":f"step-{i+1}","type":t,"ruleIds":rules if t=="computation" else [],"text":x} for i,(t,x) in enumerate(steps)]
+        sols.append({"id":"SOL-"+tid,"taskId":tid,"steps":S,"finalAnswer":{"expression":expr,"value":v,"unit":None},"verification":{"op":op,"args":[],"rev":rev},"validationStatus":"auto_validated","validatedBy":"geometry-core-recompute"})
+json.dump(tasks,open("data/tasks/generated_revolution.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
+json.dump(sols,open("data/solutions/solutions_part_04.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
+p="data/mathematics/theorems.json"; R=json.load(open(p,encoding="utf-8"))
+def Rl(id,typ,rel,kk,ru,en): return {"id":id,"type":typ,"languages":{"kk":{"title":kk[0],"statement":kk[1]},"ru":{"title":ru[0],"statement":ru[1]},"en":{"title":en[0],"statement":en[1]}},"preconditions":[],"dependencies":[],"relatedTaskTypes":rel,"source":{"type":"original","citation":None,"rightsStatus":"original"},"validationStatus":"pending"}
+if not any(r["id"]=="RULE-012" for r in R):
+    R+=[Rl("RULE-012","formula",["volumes","surface_areas"],("Цилиндр","Цилиндр көлемі V = πr²h, бүйір беті 2πrh, толық беті 2πr(r + h)."),("Цилиндр","Объём цилиндра V = πr²h, площадь боковой поверхности 2πrh, полной — 2πr(r + h)."),("Cylinder","Cylinder: volume V = πr²h, lateral area 2πrh, total area 2πr(r + h).")),
+     Rl("RULE-013","formula",["volumes","surface_areas"],("Конус","Конус көлемі V = πr²h/3, бүйір беті πrl, толық беті πr(l + r), мұнда l = √(r² + h²)."),("Конус","Объём конуса V = πr²h/3, площадь боковой поверхности πrl, полной — πr(l + r), где l = √(r² + h²)."),("Cone","Cone: volume V = πr²h/3, lateral area πrl, total area πr(l + r), where l = √(r² + h²).")),
+     Rl("RULE-014","formula",["volumes","surface_areas","distances"],("Шар","Шар көлемі V = 4πr³/3, бет ауданы 4πr². Центрден d қашықтықтағы жазықтық қимасының радиусы ρ = √(r² − d²)."),("Шар","Объём шара V = 4πr³/3, площадь поверхности 4πr². Радиус сечения плоскостью на расстоянии d от центра ρ = √(r² − d²)."),("Sphere","Ball: volume V = 4πr³/3, surface area 4πr². A plane at distance d from the center cuts a circle of radius ρ = √(r² − d²)."))]
+    json.dump(R,open(p,"w",encoding="utf-8"),ensure_ascii=False,indent=1)
+print(len(tasks),"revolution tasks, last id",tasks[-1]["id"])

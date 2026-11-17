@@ -1,0 +1,1928 @@
+[
+ {
+  "id": "SOL-ST-0047",
+  "taskId": "ST-0047",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 3, h = 5.",
+     "kk": "Берілгені: r = 3, h = 5.",
+     "en": "Given: r = 3, h = 5."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.",
+     "kk": "Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.",
+     "en": "Construct the axial section of the cylinder (a rectangle) and mark r and h."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-012"
+    ],
+    "text": {
+     "ru": "V = πr²h; pi*3^2*5 ≈ 141.3717.",
+     "kk": "V = πr²h; pi*3^2*5 ≈ 141.3717.",
+     "en": "V = πr²h; pi*3^2*5 ≈ 141.3717."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*3^2*5",
+   "value": 141.3716694115407,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "cylinder",
+    "r": 3,
+    "h": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0048",
+  "taskId": "ST-0048",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 2, h = 7.",
+     "kk": "Берілгені: r = 2, h = 7.",
+     "en": "Given: r = 2, h = 7."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.",
+     "kk": "Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.",
+     "en": "Construct the axial section of the cylinder (a rectangle) and mark r and h."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-012"
+    ],
+    "text": {
+     "ru": "V = πr²h; pi*2^2*7 ≈ 87.9646.",
+     "kk": "V = πr²h; pi*2^2*7 ≈ 87.9646.",
+     "en": "V = πr²h; pi*2^2*7 ≈ 87.9646."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*2^2*7",
+   "value": 87.96459430051421,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "cylinder",
+    "r": 2,
+    "h": 7
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0049",
+  "taskId": "ST-0049",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 4, h = 6.",
+     "kk": "Берілгені: r = 4, h = 6.",
+     "en": "Given: r = 4, h = 6."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.",
+     "kk": "Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.",
+     "en": "Construct the axial section of the cylinder (a rectangle) and mark r and h."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-012"
+    ],
+    "text": {
+     "ru": "V = πr²h; pi*4^2*6 ≈ 301.5929.",
+     "kk": "V = πr²h; pi*4^2*6 ≈ 301.5929.",
+     "en": "V = πr²h; pi*4^2*6 ≈ 301.5929."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*4^2*6",
+   "value": 301.59289474462014,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "cylinder",
+    "r": 4,
+    "h": 6
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0050",
+  "taskId": "ST-0050",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 3, h = 4.",
+     "kk": "Берілгені: r = 3, h = 4.",
+     "en": "Given: r = 3, h = 4."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.",
+     "kk": "Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.",
+     "en": "Construct the axial section of the cylinder (a rectangle) and mark r and h."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-012"
+    ],
+    "text": {
+     "ru": "S = 2πr(r + h); 2*pi*3*(3+4) ≈ 131.9469.",
+     "kk": "S = 2πr(r + h); 2*pi*3*(3+4) ≈ 131.9469.",
+     "en": "S = 2πr(r + h); 2*pi*3*(3+4) ≈ 131.9469."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*pi*3*(3+4)",
+   "value": 131.94689145077132,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "cylinder",
+    "r": 3,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0051",
+  "taskId": "ST-0051",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 5, h = 2.",
+     "kk": "Берілгені: r = 5, h = 2.",
+     "en": "Given: r = 5, h = 2."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.",
+     "kk": "Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.",
+     "en": "Construct the axial section of the cylinder (a rectangle) and mark r and h."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-012"
+    ],
+    "text": {
+     "ru": "S = 2πr(r + h); 2*pi*5*(5+2) ≈ 219.9115.",
+     "kk": "S = 2πr(r + h); 2*pi*5*(5+2) ≈ 219.9115.",
+     "en": "S = 2πr(r + h); 2*pi*5*(5+2) ≈ 219.9115."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*pi*5*(5+2)",
+   "value": 219.9114857512855,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "cylinder",
+    "r": 5,
+    "h": 2
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0052",
+  "taskId": "ST-0052",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 2, h = 9.",
+     "kk": "Берілгені: r = 2, h = 9.",
+     "en": "Given: r = 2, h = 9."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.",
+     "kk": "Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.",
+     "en": "Construct the axial section of the cylinder (a rectangle) and mark r and h."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-012"
+    ],
+    "text": {
+     "ru": "S = 2πr(r + h); 2*pi*2*(2+9) ≈ 138.2301.",
+     "kk": "S = 2πr(r + h); 2*pi*2*(2+9) ≈ 138.2301.",
+     "en": "S = 2πr(r + h); 2*pi*2*(2+9) ≈ 138.2301."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*pi*2*(2+9)",
+   "value": 138.23007675795088,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "cylinder",
+    "r": 2,
+    "h": 9
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0053",
+  "taskId": "ST-0053",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: s = 4.",
+     "kk": "Берілгені: s = 4.",
+     "en": "Given: s = 4."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.",
+     "kk": "Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.",
+     "en": "Construct the axial section of the cylinder (a rectangle) and mark r and h."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-012"
+    ],
+    "text": {
+     "ru": "h = 2r = s, S = 2πr(r + h); 2*pi*(4/2)*((4/2)+4) ≈ 75.3982.",
+     "kk": "h = 2r = s, S = 2πr(r + h); 2*pi*(4/2)*((4/2)+4) ≈ 75.3982.",
+     "en": "h = 2r = s, S = 2πr(r + h); 2*pi*(4/2)*((4/2)+4) ≈ 75.3982."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: высота цилиндра равна диаметру основания.",
+     "kk": "Тексеру: цилиндр биіктігі табан диаметріне тең.",
+     "en": "Check: the height equals the base diameter."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*pi*(4/2)*((4/2)+4)",
+   "value": 75.39822368615503,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "cylinder",
+    "r": 2.0,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0054",
+  "taskId": "ST-0054",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: s = 6.",
+     "kk": "Берілгені: s = 6.",
+     "en": "Given: s = 6."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.",
+     "kk": "Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.",
+     "en": "Construct the axial section of the cylinder (a rectangle) and mark r and h."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-012"
+    ],
+    "text": {
+     "ru": "h = 2r = s, S = 2πr(r + h); 2*pi*(6/2)*((6/2)+6) ≈ 169.6460.",
+     "kk": "h = 2r = s, S = 2πr(r + h); 2*pi*(6/2)*((6/2)+6) ≈ 169.6460.",
+     "en": "h = 2r = s, S = 2πr(r + h); 2*pi*(6/2)*((6/2)+6) ≈ 169.6460."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: высота цилиндра равна диаметру основания.",
+     "kk": "Тексеру: цилиндр биіктігі табан диаметріне тең.",
+     "en": "Check: the height equals the base diameter."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*pi*(6/2)*((6/2)+6)",
+   "value": 169.64600329384882,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "cylinder",
+    "r": 3.0,
+    "h": 6
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0055",
+  "taskId": "ST-0055",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: s = 10.",
+     "kk": "Берілгені: s = 10.",
+     "en": "Given: s = 10."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение цилиндра (прямоугольник) и отметьте r и h.",
+     "kk": "Цилиндрдің осьтік қимасын (тіктөртбұрыш) салып, r мен h белгілеңіз.",
+     "en": "Construct the axial section of the cylinder (a rectangle) and mark r and h."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-012"
+    ],
+    "text": {
+     "ru": "h = 2r = s, S = 2πr(r + h); 2*pi*(10/2)*((10/2)+10) ≈ 471.2389.",
+     "kk": "h = 2r = s, S = 2πr(r + h); 2*pi*(10/2)*((10/2)+10) ≈ 471.2389.",
+     "en": "h = 2r = s, S = 2πr(r + h); 2*pi*(10/2)*((10/2)+10) ≈ 471.2389."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: высота цилиндра равна диаметру основания.",
+     "kk": "Тексеру: цилиндр биіктігі табан диаметріне тең.",
+     "en": "Check: the height equals the base diameter."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "2*pi*(10/2)*((10/2)+10)",
+   "value": 471.23889803846896,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "cylinder",
+    "r": 5.0,
+    "h": 10
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0056",
+  "taskId": "ST-0056",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 3, h = 4.",
+     "kk": "Берілгені: r = 3, h = 4.",
+     "en": "Given: r = 3, h = 4."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013"
+    ],
+    "text": {
+     "ru": "V = πr²h/3; pi*3^2*4/3 ≈ 37.6991.",
+     "kk": "V = πr²h/3; pi*3^2*4/3 ≈ 37.6991.",
+     "en": "V = πr²h/3; pi*3^2*4/3 ≈ 37.6991."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: объём втрое меньше объёма цилиндра с тем же основанием и высотой.",
+     "kk": "Тексеру: көлем сол табаны мен биіктігі бар цилиндр көлемінен үш есе кіші.",
+     "en": "Check: the volume is one third of the cylinder with the same base and height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*3^2*4/3",
+   "value": 37.69911184307752,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 3,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0057",
+  "taskId": "ST-0057",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 6, h = 8.",
+     "kk": "Берілгені: r = 6, h = 8.",
+     "en": "Given: r = 6, h = 8."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013"
+    ],
+    "text": {
+     "ru": "V = πr²h/3; pi*6^2*8/3 ≈ 301.5929.",
+     "kk": "V = πr²h/3; pi*6^2*8/3 ≈ 301.5929.",
+     "en": "V = πr²h/3; pi*6^2*8/3 ≈ 301.5929."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: объём втрое меньше объёма цилиндра с тем же основанием и высотой.",
+     "kk": "Тексеру: көлем сол табаны мен биіктігі бар цилиндр көлемінен үш есе кіші.",
+     "en": "Check: the volume is one third of the cylinder with the same base and height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*6^2*8/3",
+   "value": 301.59289474462014,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 6,
+    "h": 8
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0058",
+  "taskId": "ST-0058",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 5, h = 12.",
+     "kk": "Берілгені: r = 5, h = 12.",
+     "en": "Given: r = 5, h = 12."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013"
+    ],
+    "text": {
+     "ru": "V = πr²h/3; pi*5^2*12/3 ≈ 314.1593.",
+     "kk": "V = πr²h/3; pi*5^2*12/3 ≈ 314.1593.",
+     "en": "V = πr²h/3; pi*5^2*12/3 ≈ 314.1593."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: объём втрое меньше объёма цилиндра с тем же основанием и высотой.",
+     "kk": "Тексеру: көлем сол табаны мен биіктігі бар цилиндр көлемінен үш есе кіші.",
+     "en": "Check: the volume is one third of the cylinder with the same base and height."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*5^2*12/3",
+   "value": 314.1592653589793,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 5,
+    "h": 12
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0059",
+  "taskId": "ST-0059",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 3, h = 4.",
+     "kk": "Берілгені: r = 3, h = 4.",
+     "en": "Given: r = 3, h = 4."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = πrl, l = √(r² + h²); pi*3*sqrt(3^2+4^2) ≈ 47.1239.",
+     "kk": "S = πrl, l = √(r² + h²); pi*3*sqrt(3^2+4^2) ≈ 47.1239.",
+     "en": "S = πrl, l = √(r² + h²); pi*3*sqrt(3^2+4^2) ≈ 47.1239."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*3*sqrt(3^2+4^2)",
+   "value": 47.12388980384689,
+   "unit": null
+  },
+  "verification": {
+   "op": "revLateral",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 3,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0060",
+  "taskId": "ST-0060",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 5, h = 12.",
+     "kk": "Берілгені: r = 5, h = 12.",
+     "en": "Given: r = 5, h = 12."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = πrl, l = √(r² + h²); pi*5*sqrt(5^2+12^2) ≈ 204.2035.",
+     "kk": "S = πrl, l = √(r² + h²); pi*5*sqrt(5^2+12^2) ≈ 204.2035.",
+     "en": "S = πrl, l = √(r² + h²); pi*5*sqrt(5^2+12^2) ≈ 204.2035."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*5*sqrt(5^2+12^2)",
+   "value": 204.20352248333654,
+   "unit": null
+  },
+  "verification": {
+   "op": "revLateral",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 5,
+    "h": 12
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0061",
+  "taskId": "ST-0061",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 8, h = 6.",
+     "kk": "Берілгені: r = 8, h = 6.",
+     "en": "Given: r = 8, h = 6."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = πrl, l = √(r² + h²); pi*8*sqrt(8^2+6^2) ≈ 251.3274.",
+     "kk": "S = πrl, l = √(r² + h²); pi*8*sqrt(8^2+6^2) ≈ 251.3274.",
+     "en": "S = πrl, l = √(r² + h²); pi*8*sqrt(8^2+6^2) ≈ 251.3274."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*8*sqrt(8^2+6^2)",
+   "value": 251.32741228718345,
+   "unit": null
+  },
+  "verification": {
+   "op": "revLateral",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 8,
+    "h": 6
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0062",
+  "taskId": "ST-0062",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 3, h = 4.",
+     "kk": "Берілгені: r = 3, h = 4.",
+     "en": "Given: r = 3, h = 4."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = πr(l + r), l = √(r² + h²); pi*3*(sqrt(3^2+4^2)+3) ≈ 75.3982.",
+     "kk": "S = πr(l + r), l = √(r² + h²); pi*3*(sqrt(3^2+4^2)+3) ≈ 75.3982.",
+     "en": "S = πr(l + r), l = √(r² + h²); pi*3*(sqrt(3^2+4^2)+3) ≈ 75.3982."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*3*(sqrt(3^2+4^2)+3)",
+   "value": 75.39822368615503,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 3,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0063",
+  "taskId": "ST-0063",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 6, h = 8.",
+     "kk": "Берілгені: r = 6, h = 8.",
+     "en": "Given: r = 6, h = 8."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = πr(l + r), l = √(r² + h²); pi*6*(sqrt(6^2+8^2)+6) ≈ 301.5929.",
+     "kk": "S = πr(l + r), l = √(r² + h²); pi*6*(sqrt(6^2+8^2)+6) ≈ 301.5929.",
+     "en": "S = πr(l + r), l = √(r² + h²); pi*6*(sqrt(6^2+8^2)+6) ≈ 301.5929."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*6*(sqrt(6^2+8^2)+6)",
+   "value": 301.59289474462014,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 6,
+    "h": 8
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0064",
+  "taskId": "ST-0064",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 5, h = 12.",
+     "kk": "Берілгені: r = 5, h = 12.",
+     "en": "Given: r = 5, h = 12."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "S = πr(l + r), l = √(r² + h²); pi*5*(sqrt(5^2+12^2)+5) ≈ 282.7433.",
+     "kk": "S = πr(l + r), l = √(r² + h²); pi*5*(sqrt(5^2+12^2)+5) ≈ 282.7433.",
+     "en": "S = πr(l + r), l = √(r² + h²); pi*5*(sqrt(5^2+12^2)+5) ≈ 282.7433."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*5*(sqrt(5^2+12^2)+5)",
+   "value": 282.7433388230814,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 5,
+    "h": 12
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0065",
+  "taskId": "ST-0065",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: l = 5, h = 4.",
+     "kk": "Берілгені: l = 5, h = 4.",
+     "en": "Given: l = 5, h = 4."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "r = √(l² − h²), V = πr²h/3; pi*(sqrt(5^2-4^2))^2*4/3 ≈ 37.6991.",
+     "kk": "r = √(l² − h²), V = πr²h/3; pi*(sqrt(5^2-4^2))^2*4/3 ≈ 37.6991.",
+     "en": "r = √(l² − h²), V = πr²h/3; pi*(sqrt(5^2-4^2))^2*4/3 ≈ 37.6991."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: образующая длиннее высоты, радиус получился положительным.",
+     "kk": "Тексеру: жасаушы биіктіктен ұзын, радиус оң шықты.",
+     "en": "Check: the slant height exceeds the height and the radius is positive."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*(sqrt(5^2-4^2))^2*4/3",
+   "value": 37.69911184307752,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 3,
+    "h": 4
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0066",
+  "taskId": "ST-0066",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: l = 13, h = 12.",
+     "kk": "Берілгені: l = 13, h = 12.",
+     "en": "Given: l = 13, h = 12."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "r = √(l² − h²), V = πr²h/3; pi*(sqrt(13^2-12^2))^2*12/3 ≈ 314.1593.",
+     "kk": "r = √(l² − h²), V = πr²h/3; pi*(sqrt(13^2-12^2))^2*12/3 ≈ 314.1593.",
+     "en": "r = √(l² − h²), V = πr²h/3; pi*(sqrt(13^2-12^2))^2*12/3 ≈ 314.1593."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: образующая длиннее высоты, радиус получился положительным.",
+     "kk": "Тексеру: жасаушы биіктіктен ұзын, радиус оң шықты.",
+     "en": "Check: the slant height exceeds the height and the radius is positive."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*(sqrt(13^2-12^2))^2*12/3",
+   "value": 314.1592653589793,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 5,
+    "h": 12
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0067",
+  "taskId": "ST-0067",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: l = 10, h = 8.",
+     "kk": "Берілгені: l = 10, h = 8.",
+     "en": "Given: l = 10, h = 8."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Постройте осевое сечение конуса (равнобедренный треугольник) и отметьте r, h, l.",
+     "kk": "Конустың осьтік қимасын (тең бүйірлі үшбұрыш) салып, r, h, l белгілеңіз.",
+     "en": "Construct the axial section of the cone (an isosceles triangle) and mark r, h, l."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-013",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "r = √(l² − h²), V = πr²h/3; pi*(sqrt(10^2-8^2))^2*8/3 ≈ 301.5929.",
+     "kk": "r = √(l² − h²), V = πr²h/3; pi*(sqrt(10^2-8^2))^2*8/3 ≈ 301.5929.",
+     "en": "r = √(l² − h²), V = πr²h/3; pi*(sqrt(10^2-8^2))^2*8/3 ≈ 301.5929."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: образующая длиннее высоты, радиус получился положительным.",
+     "kk": "Тексеру: жасаушы биіктіктен ұзын, радиус оң шықты.",
+     "en": "Check: the slant height exceeds the height and the radius is positive."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "pi*(sqrt(10^2-8^2))^2*8/3",
+   "value": 301.59289474462014,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "cone",
+    "r": 6,
+    "h": 8
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0068",
+  "taskId": "ST-0068",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 3.",
+     "kk": "Берілгені: r = 3.",
+     "en": "Given: r = 3."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Отметьте центр шара и радиус.",
+     "kk": "Шардың центрін және радиусын белгілеңіз.",
+     "en": "Mark the center and the radius of the sphere."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-014"
+    ],
+    "text": {
+     "ru": "V = 4πr³/3; 4*pi*3^3/3 ≈ 113.0973.",
+     "kk": "V = 4πr³/3; 4*pi*3^3/3 ≈ 113.0973.",
+     "en": "V = 4πr³/3; 4*pi*3^3/3 ≈ 113.0973."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4*pi*3^3/3",
+   "value": 113.09733552923255,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "sphere",
+    "r": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0069",
+  "taskId": "ST-0069",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 6.",
+     "kk": "Берілгені: r = 6.",
+     "en": "Given: r = 6."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Отметьте центр шара и радиус.",
+     "kk": "Шардың центрін және радиусын белгілеңіз.",
+     "en": "Mark the center and the radius of the sphere."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-014"
+    ],
+    "text": {
+     "ru": "V = 4πr³/3; 4*pi*6^3/3 ≈ 904.7787.",
+     "kk": "V = 4πr³/3; 4*pi*6^3/3 ≈ 904.7787.",
+     "en": "V = 4πr³/3; 4*pi*6^3/3 ≈ 904.7787."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4*pi*6^3/3",
+   "value": 904.7786842338604,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "sphere",
+    "r": 6
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0070",
+  "taskId": "ST-0070",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 5.",
+     "kk": "Берілгені: r = 5.",
+     "en": "Given: r = 5."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Отметьте центр шара и радиус.",
+     "kk": "Шардың центрін және радиусын белгілеңіз.",
+     "en": "Mark the center and the radius of the sphere."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-014"
+    ],
+    "text": {
+     "ru": "V = 4πr³/3; 4*pi*5^3/3 ≈ 523.5988.",
+     "kk": "V = 4πr³/3; 4*pi*5^3/3 ≈ 523.5988.",
+     "en": "V = 4πr³/3; 4*pi*5^3/3 ≈ 523.5988."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4*pi*5^3/3",
+   "value": 523.5987755982989,
+   "unit": null
+  },
+  "verification": {
+   "op": "revVolume",
+   "args": [],
+   "rev": {
+    "kind": "sphere",
+    "r": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0071",
+  "taskId": "ST-0071",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 2.",
+     "kk": "Берілгені: r = 2.",
+     "en": "Given: r = 2."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Отметьте центр шара и радиус.",
+     "kk": "Шардың центрін және радиусын белгілеңіз.",
+     "en": "Mark the center and the radius of the sphere."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-014"
+    ],
+    "text": {
+     "ru": "S = 4πr²; 4*pi*2^2 ≈ 50.2655.",
+     "kk": "S = 4πr²; 4*pi*2^2 ≈ 50.2655.",
+     "en": "S = 4πr²; 4*pi*2^2 ≈ 50.2655."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4*pi*2^2",
+   "value": 50.26548245743669,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "sphere",
+    "r": 2
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0072",
+  "taskId": "ST-0072",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 7.",
+     "kk": "Берілгені: r = 7.",
+     "en": "Given: r = 7."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Отметьте центр шара и радиус.",
+     "kk": "Шардың центрін және радиусын белгілеңіз.",
+     "en": "Mark the center and the radius of the sphere."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-014"
+    ],
+    "text": {
+     "ru": "S = 4πr²; 4*pi*7^2 ≈ 615.7522.",
+     "kk": "S = 4πr²; 4*pi*7^2 ≈ 615.7522.",
+     "en": "S = 4πr²; 4*pi*7^2 ≈ 615.7522."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4*pi*7^2",
+   "value": 615.7521601035994,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "sphere",
+    "r": 7
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0073",
+  "taskId": "ST-0073",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 10.",
+     "kk": "Берілгені: r = 10.",
+     "en": "Given: r = 10."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Отметьте центр шара и радиус.",
+     "kk": "Шардың центрін және радиусын белгілеңіз.",
+     "en": "Mark the center and the radius of the sphere."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-014"
+    ],
+    "text": {
+     "ru": "S = 4πr²; 4*pi*10^2 ≈ 1256.6371.",
+     "kk": "S = 4πr²; 4*pi*10^2 ≈ 1256.6371.",
+     "en": "S = 4πr²; 4*pi*10^2 ≈ 1256.6371."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: результат положителен и согласуется с размерами фигуры.",
+     "kk": "Тексеру: нәтиже оң және фигура өлшемдеріне сәйкес.",
+     "en": "Check: the result is positive and consistent with the solid's dimensions."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "4*pi*10^2",
+   "value": 1256.6370614359173,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSurface",
+   "args": [],
+   "rev": {
+    "kind": "sphere",
+    "r": 10
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0074",
+  "taskId": "ST-0074",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 5, d = 3.",
+     "kk": "Берілгені: r = 5, d = 3.",
+     "en": "Given: r = 5, d = 3."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проведите радиус в точку окружности сечения: получится прямоугольный треугольник с катетами d и ρ и гипотенузой r.",
+     "kk": "Қима шеңберінің нүктесіне радиус жүргізіңіз: катеттері d және ρ, гипотенузасы r тік бұрышты үшбұрыш шығады.",
+     "en": "Draw a radius to a point of the section circle: a right triangle with legs d and ρ and hypotenuse r."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-014",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "ρ = √(r² − d²); sqrt(5^2-3^2) ≈ 4.0000.",
+     "kk": "ρ = √(r² − d²); sqrt(5^2-3^2) ≈ 4.0000.",
+     "en": "ρ = √(r² − d²); sqrt(5^2-3^2) ≈ 4.0000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: радиус сечения меньше радиуса шара.",
+     "kk": "Тексеру: қима радиусы шар радиусынан кіші.",
+     "en": "Check: the section radius is smaller than the ball radius."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(5^2-3^2)",
+   "value": 4.0,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSectionRadius",
+   "args": [],
+   "rev": {
+    "kind": "sphere",
+    "r": 5,
+    "d": 3
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0075",
+  "taskId": "ST-0075",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 13, d = 5.",
+     "kk": "Берілгені: r = 13, d = 5.",
+     "en": "Given: r = 13, d = 5."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проведите радиус в точку окружности сечения: получится прямоугольный треугольник с катетами d и ρ и гипотенузой r.",
+     "kk": "Қима шеңберінің нүктесіне радиус жүргізіңіз: катеттері d және ρ, гипотенузасы r тік бұрышты үшбұрыш шығады.",
+     "en": "Draw a radius to a point of the section circle: a right triangle with legs d and ρ and hypotenuse r."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-014",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "ρ = √(r² − d²); sqrt(13^2-5^2) ≈ 12.0000.",
+     "kk": "ρ = √(r² − d²); sqrt(13^2-5^2) ≈ 12.0000.",
+     "en": "ρ = √(r² − d²); sqrt(13^2-5^2) ≈ 12.0000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: радиус сечения меньше радиуса шара.",
+     "kk": "Тексеру: қима радиусы шар радиусынан кіші.",
+     "en": "Check: the section radius is smaller than the ball radius."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(13^2-5^2)",
+   "value": 12.0,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSectionRadius",
+   "args": [],
+   "rev": {
+    "kind": "sphere",
+    "r": 13,
+    "d": 5
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ },
+ {
+  "id": "SOL-ST-0076",
+  "taskId": "ST-0076",
+  "steps": [
+   {
+    "id": "step-1",
+    "type": "analysis",
+    "ruleIds": [],
+    "text": {
+     "ru": "Дано: r = 10, d = 6.",
+     "kk": "Берілгені: r = 10, d = 6.",
+     "en": "Given: r = 10, d = 6."
+    }
+   },
+   {
+    "id": "step-2",
+    "type": "construction",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проведите радиус в точку окружности сечения: получится прямоугольный треугольник с катетами d и ρ и гипотенузой r.",
+     "kk": "Қима шеңберінің нүктесіне радиус жүргізіңіз: катеттері d және ρ, гипотенузасы r тік бұрышты үшбұрыш шығады.",
+     "en": "Draw a radius to a point of the section circle: a right triangle with legs d and ρ and hypotenuse r."
+    }
+   },
+   {
+    "id": "step-3",
+    "type": "computation",
+    "ruleIds": [
+     "RULE-014",
+     "RULE-002"
+    ],
+    "text": {
+     "ru": "ρ = √(r² − d²); sqrt(10^2-6^2) ≈ 8.0000.",
+     "kk": "ρ = √(r² − d²); sqrt(10^2-6^2) ≈ 8.0000.",
+     "en": "ρ = √(r² − d²); sqrt(10^2-6^2) ≈ 8.0000."
+    }
+   },
+   {
+    "id": "step-4",
+    "type": "check",
+    "ruleIds": [],
+    "text": {
+     "ru": "Проверка: радиус сечения меньше радиуса шара.",
+     "kk": "Тексеру: қима радиусы шар радиусынан кіші.",
+     "en": "Check: the section radius is smaller than the ball radius."
+    }
+   }
+  ],
+  "finalAnswer": {
+   "expression": "sqrt(10^2-6^2)",
+   "value": 8.0,
+   "unit": null
+  },
+  "verification": {
+   "op": "revSectionRadius",
+   "args": [],
+   "rev": {
+    "kind": "sphere",
+    "r": 10,
+    "d": 6
+   }
+  },
+  "validationStatus": "auto_validated",
+  "validatedBy": "geometry-core-recompute"
+ }
+]

@@ -1,0 +1,106 @@
+[
+ {
+  "code": "ERR-FACE-DIAGONAL",
+  "taskId": "ST-0001",
+  "wrongExpression": "4*sqrt(2)",
+  "relatedRules": [
+   "RULE-002"
+  ],
+  "languages": {
+   "kk": {
+    "title": "Жақ диагоналі мен куб диагоналін шатастыру",
+    "hint": "4√2 — жақтың диагоналі. Куб диагоналі кеңістікте өтеді: үш өлшемді ескеріңіз.",
+    "selfCheck": "AC₁ кесіндісі бір жақта жата ма?"
+   },
+   "ru": {
+    "title": "Диагональ грани вместо диагонали куба",
+    "hint": "4√2 — это диагональ грани. Диагональ куба проходит через пространство: учтите все три измерения.",
+    "selfCheck": "Лежит ли отрезок AC₁ в одной грани?"
+   },
+   "en": {
+    "title": "Face diagonal instead of space diagonal",
+    "hint": "4√2 is a face diagonal. The cube diagonal crosses the space: take all three dimensions into account.",
+    "selfCheck": "Does segment AC₁ lie in a single face?"
+   }
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "code": "ERR-DIST-VS-SEGMENT",
+  "taskId": "ST-0002",
+  "wrongExpression": "4",
+  "relatedRules": [
+   "RULE-003"
+  ],
+  "languages": {
+   "kk": {
+    "title": "Қашықтық пен кесінді ұзындығын шатастыру",
+    "hint": "4 — қыр ұзындығы. Қашықтық — жазықтыққа түсірілген перпендикулярдың ұзындығы, ол көлбеу кесіндіден қысқа.",
+    "selfCheck": "Қыр жазықтыққа перпендикуляр ма?"
+   },
+   "ru": {
+    "title": "Расстояние и длина наклонной",
+    "hint": "4 — это длина ребра. Расстояние до плоскости — длина перпендикуляра, а он короче наклонной.",
+    "selfCheck": "Перпендикулярно ли ребро плоскости BDA₁?"
+   },
+   "en": {
+    "title": "Distance versus length of an oblique segment",
+    "hint": "4 is an edge length. The distance to a plane is the length of the perpendicular, which is shorter than any oblique segment.",
+    "selfCheck": "Is the edge perpendicular to plane BDA₁?"
+   }
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "code": "ERR-PYRAMID-NO-THIRD",
+  "taskId": "ST-0003",
+  "wrongExpression": "4",
+  "relatedRules": [
+   "RULE-004"
+  ],
+  "languages": {
+   "kk": {
+    "title": "Пирамида көлеміндегі 1/3 көбейткіші",
+    "hint": "Пирамида көлемінің формуласында 1/3 көбейткіші бар: призма көлемімен шатастырмаңыз.",
+    "selfCheck": "Пирамида мен сол табанды және биіктікті призманың көлемі қалай байланысты?"
+   },
+   "ru": {
+    "title": "Пропущен множитель 1/3 в объёме пирамиды",
+    "hint": "В формуле объёма пирамиды есть множитель 1/3: не путайте её с формулой призмы.",
+    "selfCheck": "Как связаны объёмы пирамиды и призмы с тем же основанием и высотой?"
+   },
+   "en": {
+    "title": "Missing factor 1/3 in the pyramid volume",
+    "hint": "The pyramid volume formula has a factor 1/3: do not confuse it with the prism formula.",
+    "selfCheck": "How are the volumes of a pyramid and a prism with the same base and height related?"
+   }
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "code": "ERR-SECTION-AS-FACE",
+  "taskId": "ST-0004",
+  "wrongExpression": "16",
+  "relatedRules": [
+   "RULE-006"
+  ],
+  "languages": {
+   "kk": {
+    "title": "Қиманы жақпен шатастыру",
+    "hint": "16 — куб жағының ауданы. Қима жазықтығы AA₁C₁ жақтың жазықтығымен беттеспейді: оның қабырғаларын табыңыз.",
+    "selfCheck": "Қима төртбұрышының қабырғалары қандай?"
+   },
+   "ru": {
+    "title": "Сечение принято за грань",
+    "hint": "16 — площадь грани куба. Плоскость AA₁C₁ не совпадает с плоскостью грани: найдите стороны сечения.",
+    "selfCheck": "Чему равны стороны четырёхугольника AA₁C₁C?"
+   },
+   "en": {
+    "title": "Section mistaken for a face",
+    "hint": "16 is the area of a cube face. Plane AA₁C₁ is not a face plane: find the sides of the section.",
+    "selfCheck": "What are the sides of quadrilateral AA₁C₁C?"
+   }
+  },
+  "validationStatus": "pending"
+ }
+]

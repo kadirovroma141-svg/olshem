@@ -1,0 +1,110 @@
+[
+ {
+  "id": "ST-0001",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "space_diagonal",
+  "difficulty": 1,
+  "languages": {
+   "kk": {
+    "title": "Куб диагоналі",
+    "statement": "ABCDA₁B₁C₁D₁ кубының қыры 4-ке тең. AC₁ диагоналінің ұзындығын табыңыз."
+   },
+   "ru": {
+    "title": "Диагональ куба",
+    "statement": "Ребро куба ABCDA₁B₁C₁D₁ равно 4. Найдите длину диагонали AC₁."
+   },
+   "en": {
+    "title": "Cube diagonal",
+    "statement": "The edge of cube ABCDA₁B₁C₁D₁ is 4. Find the length of diagonal AC₁."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0002",
+  "grade": 10,
+  "topic": "distances",
+  "subtopic": "point_to_plane",
+  "difficulty": 2,
+  "languages": {
+   "kk": {
+    "title": "Жазықтыққа дейінгі қашықтық",
+    "statement": "ABCDA₁B₁C₁D₁ кубының қыры 4-ке тең. A төбесінен BDA₁ жазықтығына дейінгі қашықтықты табыңыз."
+   },
+   "ru": {
+    "title": "Расстояние до плоскости",
+    "statement": "Ребро куба ABCDA₁B₁C₁D₁ равно 4. Найдите расстояние от вершины A до плоскости BDA₁."
+   },
+   "en": {
+    "title": "Distance to a plane",
+    "statement": "The edge of cube ABCDA₁B₁C₁D₁ is 4. Find the distance from vertex A to plane BDA₁."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0003",
+  "grade": 10,
+  "topic": "volumes",
+  "subtopic": "tetrahedron",
+  "difficulty": 2,
+  "languages": {
+   "kk": {
+    "title": "Тетраэдр көлемі",
+    "statement": "ABCDA₁B₁C₁D₁ кубының қыры 2-ге тең. ABDA₁ тетраэдрінің көлемін табыңыз."
+   },
+   "ru": {
+    "title": "Объём тетраэдра",
+    "statement": "Ребро куба ABCDA₁B₁C₁D₁ равно 2. Найдите объём тетраэдра ABDA₁."
+   },
+   "en": {
+    "title": "Tetrahedron volume",
+    "statement": "The edge of cube ABCDA₁B₁C₁D₁ is 2. Find the volume of tetrahedron ABDA₁."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ },
+ {
+  "id": "ST-0004",
+  "grade": 10,
+  "topic": "cross_sections",
+  "subtopic": "diagonal_section",
+  "difficulty": 2,
+  "languages": {
+   "kk": {
+    "title": "Диагональды қима",
+    "statement": "Қыры 4 куб. A, A₁, C₁ нүктелері арқылы өтетін қиманың ауданын табыңыз."
+   },
+   "ru": {
+    "title": "Диагональное сечение",
+    "statement": "Ребро куба равно 4. Найдите площадь сечения куба плоскостью, проходящей через A, A₁, C₁."
+   },
+   "en": {
+    "title": "Diagonal section",
+    "statement": "A cube has edge 4. Find the area of its section by the plane through A, A₁, C₁."
+   }
+  },
+  "source": {
+   "type": "original",
+   "citation": null,
+   "rightsStatus": "original"
+  },
+  "validationStatus": "pending"
+ }
+]
